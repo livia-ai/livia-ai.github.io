@@ -1,2 +1,3 @@
-# livia-ai.github.io
-Public website
+# LiviaAI
+
+Future location of the public website for the LiviaAI project.
