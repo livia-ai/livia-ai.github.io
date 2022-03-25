@@ -5,3 +5,13 @@
 .gradient {
   background: linear-gradient(90deg, #d53369 0%, #daae51 100%);
 }
+
+.splash-logo {
+  max-height: 110px;
+  max-width: 270px;
+}
+
+.splash-logo-small {
+  max-height: 60px;
+  max-width: 240px;
+}

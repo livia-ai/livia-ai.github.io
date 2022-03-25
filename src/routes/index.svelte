@@ -52,6 +52,7 @@
         LiviaAI
       </a>
     </div>
+    
     <!--div class="block lg:hidden pr-4">
       <button id="nav-toggle" class="flex items-center p-1 text-pink-800 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
         <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
@@ -168,6 +169,40 @@
     </div>
   </div>
 </section>
+
+<section class="bg-white py-8">
+  <div class="container mx-auto flex flex-wrap">
+    <h2 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
+      Partners
+    </h2>
+    <div class="w-full mb-4">
+      <div class="h-1 mx-auto gradient w-64 opacity-25 my-0 py-0 rounded-t"></div>
+    </div>
+
+    <div class="flex justify-center w-full pt-10 pb-20">
+      <div class="flex justify-center items-center">
+        <div class="pr-10">
+          <a href="https://www.donau-uni.ac.at" class="flex flex-wrap no-underline hover:no-underline" title="Universität für Weiterbildung Krems">
+            <img class="splash-logo" src="logos/donau-universitaet-krems.svg" alt="Logo der Universität für Weiterbildung Krems"/>
+          </a>
+        </div>
+
+        <div class="pl-10 pr-10">
+          <a href="https://www.ait.ac.at" class="flex flex-wrap no-underline hover:no-underline" title="AIT Austrian Institute of Technology">
+            <img class="splash-logo" src="logos/ait.jpg" alt="Logo des Austrian Instiute of Technology"/>
+          </a>
+        </div>
+
+        <div class="pl-10">
+          <a href="https://www.belvedere.at/" class="flex flex-wrap no-underline hover:no-underline"title="Belvedere Museum Wien">
+            <img class="splash-logo-small" src="logos/belvedere.jpg" alt="Logo des Belvedere Museum Wien"/>
+          </a>
+        </div>
+      </div>
+    </div>
+  </div>
+</section>
+
 <!-- section class="bg-white border-b py-8">
   <div class="container mx-auto flex flex-wrap pt-4 pb-12">
     <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
@@ -180,7 +215,7 @@
       <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
         <a href="#" class="flex flex-wrap no-underline hover:no-underline">
           <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-            xGETTING STARTED
+            GETTING STARTED
           </p>
           <div class="w-full font-bold text-xl text-gray-800 px-6">
             Lorem ipsum dolor sit amet.
@@ -202,7 +237,7 @@
       <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
         <a href="#" class="flex flex-wrap no-underline hover:no-underline">
           <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-            xGETTING STARTED
+            GETTING STARTED
           </p>
           <div class="w-full font-bold text-xl text-gray-800 px-6">
             Lorem ipsum dolor sit amet.
@@ -224,7 +259,7 @@
       <div class="flex-1 bg-white rounded-t rounded-b-none overflow-hidden shadow">
         <a href="#" class="flex flex-wrap no-underline hover:no-underline">
           <p class="w-full text-gray-600 text-xs md:text-sm px-6">
-            xGETTING STARTED
+            GETTING STARTED
           </p>
           <div class="w-full font-bold text-xl text-gray-800 px-6">
             Lorem ipsum dolor sit amet.
