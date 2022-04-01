@@ -22,7 +22,9 @@ h1 {
   padding-bottom:20px;
 }
 
-ul {
+.blogpost ul {
+  padding:0 20px;
+  list-style-type:square;
   margin:20px 0;
 }
 
