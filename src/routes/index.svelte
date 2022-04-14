@@ -178,32 +178,32 @@ import Layout from './__layout.svelte';
     </div>
 
     <div class="flex justify-center w-full pt-10 pb-20">
-      <div class="flex justify-center items-center">
-        <div class="pr-10">
+      <div class="flex flex-wrap justify-center items-center">
+        <div class="ml-5 mr-5 mb-10">
           <a href="https://www.donau-uni.ac.at" class="flex flex-wrap no-underline hover:no-underline" title="Universität für Weiterbildung Krems">
             <img class="splash-logo" src="logos/donau-universitaet-krems.svg" alt="Logo der Universität für Weiterbildung Krems"/>
           </a>
         </div>
 
-        <div class="pl-10 pr-10">
+        <div class="ml-5 mr-5 mb-10">
           <a href="https://www.ait.ac.at" class="flex flex-wrap no-underline hover:no-underline" title="AIT Austrian Institute of Technology">
             <img class="splash-logo" src="logos/ait.jpg" alt="Logo des Austrian Instiute of Technology"/>
           </a>
         </div>
 
-        <div>
+        <div class="ml-5 mr-5 mb-10">
           <a href="https://www.belvedere.at/" class="flex flex-wrap no-underline hover:no-underline"title="Belvedere Museum Wien">
             <img class="splash-logo-small" src="logos/belvedere.jpg" alt="Logo des Belvedere Museum Wien"/>
           </a>
         </div>
 
-        <div class="pl-10">
+        <div class="ml-5 mr-5 mb-10">
           <a href="https://www.mak.at/" class="flex flex-wrap no-underline hover:no-underline"title="MAK Museum Wien">
             <img class="splash-logo-small" src="logos/mak.jpg" alt="Logo des MAK Museum Wien"/>
           </a>
         </div>
 
-        <div class="pl-10">
+        <div class="ml-5 mr-5 mb-10">
           <a href="https://www.wienmuseum.at/" class="flex flex-wrap no-underline hover:no-underline"title="Wien Museum">
             <img class="splash-logo-small" src="logos/wien-museum.png" alt="Logo des Wien Museum"/>
           </a>
