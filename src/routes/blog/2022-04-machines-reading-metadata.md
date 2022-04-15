@@ -14,7 +14,7 @@ The bad news: we need __a lot__ of examples to train the AI. We expect that we'l
 
 ## Understanding our Partner Collections 
 
-The first step in our journey is therefore to get a better understanding of our partner collections. What's actually inside them? What information have curators added to the items? And can we leverage all this existing knowledge - and their hard work - to pick the examples for us?
+The first step in our journey is therefore to get a better understanding of our partner collections. What's actually inside them? What information have curators added to the items? And can we leverage all this existing knowledge - and their hard work - to pick those examples for us?
 
 [...TODO...]
 
