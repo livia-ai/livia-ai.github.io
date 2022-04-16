@@ -9,11 +9,17 @@ For two reasons: first, this will enable museums in the future to __more easily 
 
 The big question, of course, is: what _does_ make two artworks similar? And how do we even get enough of the right data for teaching a machine to mimic our understanding of similarity? Approaches which have been used previously look, for example, at similar colours. Or they use artificial intelligence to detect objects in the artworks. But would you necessarily consider two artworks similar just because they both use yellow as their primary color? Or because they both depict a flower?
 
-In LiviaAI, we want to take a different approach. Instead of coming up with our own definitions of similarity, or relying on simple metrics like color, we want to leverage the knowledge that museum curators have already accumulated into their collections over the years.  
+In LiviaAI, we want to take a different approach. Instead of coming up with our own definitions of similarity, or relying on simple metrics like color, we want to leverage the knowledge that museum curators have already accumulated into their collections over the years. Before teaching computers how to _measure_ similarity, we first want to understand how curators have been _describing_ similar artworks in their collections. 
+
+## Understanding our Partner Collections 
+
+The first step in our journey is therefore to get a better understanding of our partner collections. What's actually inside them? What information have curators added to the items over the years? And how can we translate all this existing knowledge - and hard work - into data that computers can work with?
+
+
+
 
 [...unfinished... material for re-use ...]
 
-We will proceed in two stages:
 
 - First, we will collect examples of images that are "similar" in some way. We will also collect counter-examples, so that the
   computer can learn what "different" images look like. (More on the ways in which images might resemble or differ later.) 
@@ -22,12 +28,6 @@ We will proceed in two stages:
   [representation or feature learning](https://en.wikipedia.org/wiki/Feature_learning)).
 
 The bad news: we need __a lot__ of examples to train the AI. We expect that we'll need at least 10.000 examples as the absolute minimum. And that's a much bigger training set than we could ever assemble by hand.
-
-## Understanding our Partner Collections 
-
-The first step in our journey is therefore to get a better understanding of our partner collections. What's actually inside them? What information have curators added to the items? And can we leverage all this existing knowledge - and their hard work - to pick those examples for us?
-
-[...TODO...]
 
 <iframe 
   src="/embeds/blog/2022-04/embeddings-example.html"
