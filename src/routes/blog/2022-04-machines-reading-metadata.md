@@ -1,8 +1,13 @@
 # Machines Reading Metadata
 
-We are now six weeks into our project, and it's about time to give an update on initial results from our tech team! The tech team, by the way, that's us: intern and Machine Learning student [Bernhard](#) and me, [Rainer](#), Senior Researcher at the Data Science & Artificial Intelligence group at the Austrian Institute of Technology. (And, yes, Bernhard is totally doing all the smart work, while I'm mostly writing the blog posts.)
+We are now six weeks into our project, and it's time for an update on initial results from our tech team! The tech team, by the way, that's us: intern and Machine Learning student [Bernhard](#) and me, [Rainer](#), Senior Researcher at the Data Science & Artificial Intelligence group at the Austrian Institute of Technology.
 
-As we explained in our [introductory post](#), the main goal of LiviaAI is to find out whether we can teach computers to judge "similarity" of artworks. We will proceed in two stages:
+As we explained in our [introductory post](#), the main goal of LiviaAI is to find out whether we can teach computers to judge "similarity" of artworks. Why? 
+For two reasons: first, this will allow museums to __more easily connect their collections to those of other museums__ in the future. Computers would autonomously handle the tedious, time-consuming work of sorting through thousands of artworks, and finding relevant related material in other museums, thus saving museum curators many hours of their valuable time. Second, we believe that these new connections will enable __new forms of online museum experiences that cross institutional boundaries__. Interested in the [Wiener Moderne](https://en.wikipedia.org/wiki/Wiener_Moderne)? Then why stay in the confines of the one or two largest museums, when many smaller museums might hold some lesser known treasures, too?
+
+
+
+We will proceed in two stages:
 
 - First, we will collect examples of images that are "similar" in some way. We will also collect counter-examples, so that the
   computer can learn what "different" images look like. (More on the ways in which images might resemble or differ later.) 
