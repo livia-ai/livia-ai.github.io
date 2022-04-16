@@ -5,7 +5,11 @@ We are now six weeks into our project, and it's time for an update on initial re
 As we explained in our [introductory post](#), the main goal of LiviaAI is to find out whether we can teach computers to judge "similarity" of artworks. Why? 
 For two reasons: first, this will allow museums to __more easily connect their collections to those of other museums__ in the future. Computers would autonomously handle the tedious, time-consuming work of sorting through thousands of artworks, and finding relevant related material in other museums, thus saving museum curators many hours of their valuable time. Second, we believe that these new connections will enable __new forms of online museum experiences that cross institutional boundaries__. Interested in the [Wiener Moderne](https://en.wikipedia.org/wiki/Wiener_Moderne)? Then why stay in the confines of the one or two largest museums, when many smaller museums might hold some lesser known treasures, too?
 
+## Similar or Not?
 
+The big question, of course, is: what _does_ make two artworks similar? And, as a next step, how do we get the right data for teaching computers to mimic our understanding of similarity? Approaches which have been used previously look, for example, at similar colours. Or they use artificial intelligence to detect the depicted objects. But would you consider two artworks to be similar, just because they both use yellow as their primary color? Or because they both depict a flower?
+
+[...]
 
 We will proceed in two stages:
 
