@@ -42,6 +42,10 @@ a {
   text-decoration:underline;
 }
 
+#navAction a {
+  text-decoration:none;
+}
+
 @media (max-width: 600px) {
 
   iframe {
