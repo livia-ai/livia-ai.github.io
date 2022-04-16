@@ -13,7 +13,7 @@ In LiviaAI, we want to take a different approach. Instead of coming up with our 
 
 ## Understanding our Partner Collections 
 
-The first step in our journey is therefore to get a better understanding of our partner collections. What's actually inside them? What information have curators added to the items as metadata over the years? And how can we translate all this existing knowledge - and hard work - into data that computers can work with?
+The first step in our journey is therefore to get a better understanding of our partner collections. What's actually inside them? What information have curators added to the items as metadata over the years? And how can we translate all this existing knowledge - and hard work - into data that computers can use to learn about similarity?
 
 [...unfinished... material for re-use ...]
 
