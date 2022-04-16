@@ -84,6 +84,7 @@
   </div>
   <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
 </nav>
+
 <!--Hero-->
 <div class="pt-24">
   <div class="container px-3 mx-auto flex flex-wrap flex-col md:flex-row items-center">
@@ -103,6 +104,7 @@
     </div>
   </div>
 </div>
+
 <div class="relative -mt-12 lg:-mt-24">
   <svg viewBox="0 0 1428 174" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink">
     <g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd">
@@ -122,6 +124,7 @@
     </g>
   </svg>
 </div>
+
 <section class="bg-white py-8">
   <div class="container max-w-5xl mx-auto m-8">
     <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-gray-800">
@@ -160,13 +163,12 @@
         <p class="text-gray-600 mb-12">
           Building on cutting-edge <strong>deep learning</strong> and
           <strong>natural language processing</strong> - most notably representation learning,
-          triplet loss networks and word embeddings - LiviaAI will explore ways for museum 
+          triplet loss networks and sentence transformers - LiviaAI will explore ways for museum 
           professionals to design their own AI processes without the need for the prohibitive 
           manual data annotation work normally required to train AI models.
         </p>
         
       </div>
-      <!-- div class="w-full sm:w-1/2 p-6"></div -->
     </div>
   </div>
 </section>
