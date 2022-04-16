@@ -8,12 +8,12 @@
 		<meta http-equiv="content-security-policy" content="">
 	<link rel="stylesheet" href="/_app/assets/app-b3365922.css">
 	<link rel="stylesheet" href="/_app/assets/pages/blog/__layout.svelte-27041123.css">
-	<link rel="modulepreload" href="/_app/start-2229e39f.js">
+	<link rel="modulepreload" href="/_app/start-ef8c1dde.js">
 	<link rel="modulepreload" href="/_app/chunks/vendor-ea2447eb.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-930164ba.js">
 	<link rel="modulepreload" href="/_app/pages/blog/__layout.svelte-1d72bd6a.js">
-	<link rel="modulepreload" href="/_app/pages/blog/2022-04-machines-reading-metadata.md-967c99aa.js"><script type="module">
-		import { start } from "/_app/start-2229e39f.js";
+	<link rel="modulepreload" href="/_app/pages/blog/2022-04-machines-reading-metadata.md-33c1b6e5.js"><script type="module">
+		import { start } from "/_app/start-ef8c1dde.js";
 		start({
 			target: document.querySelector("body"),
 			paths: {"base":"","assets":""},
@@ -27,7 +27,7 @@
 				nodes: [
 					import("/_app/pages/__layout.svelte-930164ba.js"),
 						import("/_app/pages/blog/__layout.svelte-1d72bd6a.js"),
-						import("/_app/pages/blog/2022-04-machines-reading-metadata.md-967c99aa.js")
+						import("/_app/pages/blog/2022-04-machines-reading-metadata.md-33c1b6e5.js")
 				],
 				url: new URL("http://sveltekit-prerender/blog/2022-04-machines-reading-metadata"),
 				params: {}
@@ -54,6 +54,10 @@ For two reasons: first, this way museums in the future will be able to <strong>m
 <p>In LiviaAI, we want to take a different approach. Instead of coming up with our own metrics for similarity, or relying on technical properties like color, we want to leverage the existing knowledge that museum curators have accumulated in their collections over the years. Before teaching computers how to recognize similarity in the <em>images</em>, we first want to understand how curators have been <em>describing</em> their artworks, and search for similarities there. </p>
 <h2>Understanding our Partner Collections</h2>
 <p>The first step in our journey is therefore to get a better understanding of our partner collections. What’s actually inside them? What information have curators added to the items as metadata over the years? And how can we translate all this existing knowledge - and hard work - into data that computers can use to learn about similarity?</p>
+<p>[…perhaps two examples of artworks + metadata - maybe the Lusthaus from two partners?…]</p>
+<p>Our three partners, the <a href="https://www.belvedere.at/" rel="nofollow">Belvedere Museum Wien</a>, the <a href="https://www.mak.at" rel="nofollow">Museum für angewandte Kunst</a> and the <a href="https://www.wienmuseum.at/" rel="nofollow">Wien Museum</a> have given us access to collection metadata that pertains to all artworks displayed in their public online collections. That’s more than 300.000 objects in total! The metadata includes a mix of information such as: title and description text, subjects keywords and classification terms, artist names, summary data on provenance, and, where applicable, information about material, production, places and time periods relevant to the artwork.</p>
+<p>Each partner manages their metadata in slightly different ways. Therefore, figuring out which metadata records might lead us to artworks that are similar - according to what the curators tell us about them - is not quite straightforward yet.</p>
+<h2>Reading Metadata - from a Distance</h2>
 <p>[…unfinished… material for re-use …]</p>
 <ul><li>First, we will collect examples of images that are “similar” in some way. We will also collect counter-examples, so that the
 computer can learn what “different” images look like. (More on the ways in which images might resemble or differ later.) </li>

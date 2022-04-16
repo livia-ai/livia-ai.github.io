@@ -15,6 +15,22 @@ In LiviaAI, we want to take a different approach. Instead of coming up with our 
 
 The first step in our journey is therefore to get a better understanding of our partner collections. What's actually inside them? What information have curators added to the items as metadata over the years? And how can we translate all this existing knowledge - and hard work - into data that computers can use to learn about similarity?
 
+[...perhaps two examples of artworks + metadata - maybe the Lusthaus from two partners?...]
+
+Our three partners, the [Belvedere Museum Wien](https://www.belvedere.at/), the [Museum für angewandte Kunst](https://www.mak.at) and the [Wien Museum](https://www.wienmuseum.at/) have given us access to collection metadata that pertains to all artworks displayed in their public online collections. That's more than 300.000 objects in total! The metadata includes a mix of information such as: title and description text, subjects keywords and classification terms, artist names, summary data on provenance, and, where applicable, information about material, production, places and time periods relevant to the artwork.
+
+Each partner manages their metadata in slightly different ways. Therefore, figuring out which metadata records might lead us to artworks that are similar - according to what the curators tell us about them - is not quite straightforward yet.
+
+## Reading Metadata - from a Distance
+
+
+
+
+
+
+
+
+
 [...unfinished... material for re-use ...]
 
 
