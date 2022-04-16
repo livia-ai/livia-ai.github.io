@@ -8,12 +8,12 @@
 		<meta http-equiv="content-security-policy" content="">
 	<link rel="stylesheet" href="/_app/assets/app-b3365922.css">
 	<link rel="stylesheet" href="/_app/assets/pages/blog/__layout.svelte-27041123.css">
-	<link rel="modulepreload" href="/_app/start-ad626851.js">
+	<link rel="modulepreload" href="/_app/start-559a8575.js">
 	<link rel="modulepreload" href="/_app/chunks/vendor-ea2447eb.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-930164ba.js">
 	<link rel="modulepreload" href="/_app/pages/blog/__layout.svelte-1d72bd6a.js">
-	<link rel="modulepreload" href="/_app/pages/blog/2022-04-machines-reading-metadata.md-8595ef73.js"><script type="module">
-		import { start } from "/_app/start-ad626851.js";
+	<link rel="modulepreload" href="/_app/pages/blog/2022-04-machines-reading-metadata.md-04868958.js"><script type="module">
+		import { start } from "/_app/start-559a8575.js";
 		start({
 			target: document.querySelector("body"),
 			paths: {"base":"","assets":""},
@@ -27,7 +27,7 @@
 				nodes: [
 					import("/_app/pages/__layout.svelte-930164ba.js"),
 						import("/_app/pages/blog/__layout.svelte-1d72bd6a.js"),
-						import("/_app/pages/blog/2022-04-machines-reading-metadata.md-8595ef73.js")
+						import("/_app/pages/blog/2022-04-machines-reading-metadata.md-04868958.js")
 				],
 				url: new URL("http://sveltekit-prerender/blog/2022-04-machines-reading-metadata"),
 				params: {}
@@ -50,8 +50,9 @@
 <p>As we explained in our <a href="#">introductory post</a>, the main goal of LiviaAI is to find out whether we can teach computers to judge “similarity” of artworks. Why?
 For two reasons: first, this will enable museums in the future to <strong>more easily connect their collections to those of other museums</strong>. Computers would autonomously handle the tedious, time-consuming work of sorting through thousands of artworks, and finding relevant related material in other museums, thus saving museum curators many hours of their valuable time. Second, we believe that these new connections will also enable <strong>new forms of online museum experiences that cross institutional boundaries</strong>. Interested in the <a href="https://en.wikipedia.org/wiki/Wiener_Moderne" rel="nofollow">Wiener Moderne</a>? Then why stay within the confines of the one or two largest museums, when other, smaller, museums might house many lesser known treasures, too?</p>
 <h2>Similar or Not?</h2>
-<p>The big question, of course, is: what <em>does</em> make two artworks similar? And, as a next step, how do we get the right data for teaching computers to mimic our understanding of similarity? Approaches which have been used previously look, for example, at similar colours. Or they use artificial intelligence to detect the depicted objects. But would you consider two artworks to be similar, just because they both use yellow as their primary color? Or because they both depict a flower?</p>
-<p>[…]</p>
+<p>The big question, of course, is: what <em>does</em> make two artworks similar? And how do we even get enough of the right data for teaching a machine to mimic our understanding of similarity? Approaches which have been used previously look, for example, at similar colours. Or they use artificial intelligence to detect objects in the artworks. But would you necessarily consider two artworks similar just because they both use yellow as their primary color? Or because they both depict a flower?</p>
+<p>In LiviaAI, we want to take a different approach. Instead of coming up with our own definitions of similarity, or relying on simple metrics like color, we want to leverage the knowledge that museum curators have already accumulated into their collections over the years.  </p>
+<p>[…unfinished… material for re-use …]</p>
 <p>We will proceed in two stages:</p>
 <ul><li>First, we will collect examples of images that are “similar” in some way. We will also collect counter-examples, so that the
 computer can learn what “different” images look like. (More on the ways in which images might resemble or differ later.) </li>

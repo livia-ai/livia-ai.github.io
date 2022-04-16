@@ -8,6 +8,14 @@
     var navaction = document.getElementById("navAction");
     var toToggle = document.querySelectorAll(".toggleColour");
 
+    var navToggle = document.getElementById('nav-toggle');
+    navToggle.addEventListener('click', function() {
+      if (navcontent.classList.contains('hidden'))
+        navcontent.classList.remove('hidden');
+      else
+        navcontent.classList.add('hidden');
+    });
+
     document.addEventListener("scroll", function () {
       scrollpos = window.scrollY;
 
@@ -63,9 +71,6 @@
     </div>
     <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
       <ul class="list-reset lg:flex justify-end flex-1 items-center">
-        <li class="mr-3">
-          <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="/">Home</a>
-        </li>
         <li class="mr-3">
           <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="/blog/sample">Blog</a>
         </li>
