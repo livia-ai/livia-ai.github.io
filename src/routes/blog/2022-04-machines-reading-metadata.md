@@ -22,7 +22,14 @@ Each partner records metadata in slightly different ways. Therefore, figuring ou
 
 ## Reading Metadata - From a Distance
 
-Luckily, artificial intelligence can help us here, too. In LiviaAI, we use a technique called [Sentence Embedding](https://arxiv.org/abs/1908.10084) to get a better picture of the structure, themes and topics of our collections.
+Luckily, artificial intelligence can help us here, too. In LiviaAI, we use a technique called [Sentence Embedding](https://arxiv.org/abs/1908.10084) to get a better picture of the structure, themes and topics of our collections. [..TODO...]
+
+<iframe 
+  src="/embeds/blog/2022-04/embeddings-example.html"
+  style="width:800px; height:600px;">
+</iframe>
+
+<span class="image-caption">Fig. 2. Sentence embeddings for 6,200 metadata records from the online collection of the Wien Museum, projected to 3 dimensions. Color represents a distinct combination of classifications assigned by the curators.</span>
 
 
 [...unfinished... material for re-use ...]
@@ -35,14 +42,6 @@ Luckily, artificial intelligence can help us here, too. In LiviaAI, we use a tec
   [representation or feature learning](https://en.wikipedia.org/wiki/Feature_learning)).
 
 The bad news: we need __a lot__ of examples to train the AI. We expect that we'll need at least 10.000 examples as the absolute minimum. And that's a much bigger training set than we could ever assemble by hand.
-
-<iframe 
-  src="/embeds/blog/2022-04/embeddings-example.html"
-  style="width:800px; height:600px;">
-</iframe>
-
-<span class="image-caption">Fig. 2. Sentence embeddings for 6,200 metadata records from the online collection of the Wien Museum, projected to 3 dimensions. Color represents the distinct combination of classification assigned by the curators.</span>
-
 
 
 
