@@ -7,16 +7,13 @@ For two reasons: first, this way museums in the future will be able to __more ea
 
 ## Similar or Not?
 
-The big question is, of course: what _does_ make two artworks similar? And how do we even get enough of the right data to teach a machine to mimic our understanding of similarity? Approaches which have been used previously look, for example, at similar colours. Or they use artificial intelligence to detect objects in the artworks. But would you necessarily consider two artworks similar just because they both use yellow as their primary color? Or because they both depict a flower?
+The big question is, of course: what _does_ make two artworks similar? And how do we even get enough of the right data to teach a machine to mimic our understanding of similarity? Previous approaches have been looking, for example, at similar colours. Or they used artificial intelligence to detect objects in the artworks. But would you necessarily consider two artworks similar just because they both use yellow as their primary color? Or because they both depict flowers?
 
-In LiviaAI, we want to take a different approach. Instead of coming up with our own definitions of similarity, or relying on simple metrics like color, we want to leverage the knowledge that museum curators have already accumulated into their collections over the years. Before teaching computers how to _measure_ similarity, we first want to understand how curators have been _describing_ similar artworks in their collections. 
+In LiviaAI, we want to take a different approach. Instead of coming up with our own, technical, definitions of similarity, or relying on simple metrics, we want to leverage the existing knowledge that museum curators have accumulated in their collections over the years. Before teaching computers how to recognize similarity in the _images_, we first want to understand how curators have been describing their artworks, and search for similarities in their _descriptions_. 
 
 ## Understanding our Partner Collections 
 
-The first step in our journey is therefore to get a better understanding of our partner collections. What's actually inside them? What information have curators added to the items over the years? And how can we translate all this existing knowledge - and hard work - into data that computers can work with?
-
-
-
+The first step in our journey is therefore to get a better understanding of our partner collections. What's actually inside them? What information have curators added to the items as metadata over the years? And how can we translate all this existing knowledge - and hard work - into data that computers can work with?
 
 [...unfinished... material for re-use ...]
 
