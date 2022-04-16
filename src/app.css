@@ -46,6 +46,18 @@ a {
   text-decoration:none;
 }
 
+.image-caption {
+  font-family:'Times New Roman', Times, serif;
+  font-weight:bold;
+  display:inline-block;
+  padding:20px 30px;
+  text-align:center;
+}
+
+iframe {
+  margin:0 auto;
+}
+
 @media (max-width: 600px) {
 
   iframe {

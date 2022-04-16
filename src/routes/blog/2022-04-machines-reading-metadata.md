@@ -1,6 +1,6 @@
 # Machines Reading Metadata
 
-We are now six weeks into our project, and it's time for an update on the work of our tech team! The tech team, by the way, that's us: intern [Bernhard](#), student of Machine Learning and Artificial Intelligence at the University of Linz, and me, [Rainer](#), Senior Researcher at the Data Science & Artificial Intelligence group at the Austrian Institute of Technology.
+We are now six weeks into our project, and it's time for an update on the work of our tech team! The tech team, by the way, that's us: intern [Bernhard](#), student of Artificial Intelligence at the University of Linz, and me, [Rainer](#), Senior Researcher at the Data Science & Artificial Intelligence group at the Austrian Institute of Technology.
 
 As we explained in our [introductory post](#), the main goal of LiviaAI is to find out whether we can teach computers to recognize "similarity" of artworks. Why? For two reasons: first, because museums in the future would then be able to __more easily connect their collections to those of other museums__. Computers could handle most of the tedious, time-consuming work of sorting through thousands of artworks, and finding relevant related material in other museums, thus saving museum curators many hours of their valuable time. Second, we believe that these new connections will enable __new forms of online museum experiences that cross institutional boundaries__. Interested in the [Wiener Moderne](https://en.wikipedia.org/wiki/Wiener_Moderne)? Then why stay within the confines of just one or two famous museums, when other, smaller, museums might house some lesser known treasures, too?
 
@@ -8,9 +8,9 @@ As we explained in our [introductory post](#), the main goal of LiviaAI is to fi
 
 The big question is, of course: what _does_ make two artworks similar? And how do we even get enough of the right data to teach a machine to mimic our understanding of similarity? Previous approaches have been looking, for example, at similar colours. Or they used artificial intelligence to detect common objects in the artworks. But would you necessarily consider two artworks similar just because they both use yellow as their primary color? Or because they both depict flowers?
 
-In LiviaAI, we want to take a different approach. Instead of coming up with our own metrics for similarity, or relying on technical properties like color, we want to leverage the existing knowledge that museum curators have accumulated in their collections over many years. Before teaching computers how to recognize similar images, we first want to understand how curators have been _describing_ them, and search for similarities there. 
+In LiviaAI, we want to take a different approach. Instead of coming up with our own metrics for similarity, or relying on technical properties like color, we want to leverage the existing knowledge that museum curators have accumulated in their collections over many years. In order to teach computers how to recognize similar _images_, we first want to understand how curators have been _describing_ them - and search for similarity in these descriptions. 
 
-## Understanding our Partner Collections 
+## Understanding Our Partner Collections 
 
 The first step in our journey is therefore to get a better understanding of our partner collections. What's actually inside them? What information have curators added to the items as metadata? And how can we translate all this existing knowledge (and years of work!) into data that can teach computers to recognize similar art?
 
@@ -20,11 +20,9 @@ Our three partners, the [Belvedere Museum Wien](https://www.belvedere.at/), the 
 
 Each partner records metadata in slightly different ways. Therefore, figuring out which artworks might be similar - according to what the curators tell us about them in the metadata - is not quite straightforward.
 
-## Reading Metadata - from a Distance (or: Meet BERT)
+## Reading Metadata - From a Distance
 
-
-
-
+Luckily, artificial intelligence can help us here, too. In LiviaAI, we use a technique called [Sentence Embedding](https://arxiv.org/abs/1908.10084) to get a better picture of the structure, themes and topics of our collections.
 
 
 [...unfinished... material for re-use ...]
@@ -43,7 +41,7 @@ The bad news: we need __a lot__ of examples to train the AI. We expect that we'l
   style="width:800px; height:600px;">
 </iframe>
 
-<span class="caption">Sentence embeddings for 6.200 metadata records from the Wien Museum, visualized in 3 dimensions. Color by category assigned by curators.</span>
+<span class="image-caption">Fig. 2. Sentence embeddings for 6,200 metadata records from the online collection of the Wien Museum, projected to 3 dimensions. Color represents the distinct combination of classification assigned by the curators.</span>
 
 
 
