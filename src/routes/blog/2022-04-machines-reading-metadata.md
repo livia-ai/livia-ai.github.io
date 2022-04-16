@@ -7,7 +7,7 @@ For two reasons: first, this way museums in the future will be able to __more ea
 
 ## Similar or Not?
 
-The big question, of course, is: what _does_ make two artworks similar? And how do we even get enough of the right data for teaching a machine to mimic our understanding of similarity? Approaches which have been used previously look, for example, at similar colours. Or they use artificial intelligence to detect objects in the artworks. But would you necessarily consider two artworks similar just because they both use yellow as their primary color? Or because they both depict a flower?
+The big question is, of course: what _does_ make two artworks similar? And how do we even get enough of the right data to teach a machine to mimic our understanding of similarity? Approaches which have been used previously look, for example, at similar colours. Or they use artificial intelligence to detect objects in the artworks. But would you necessarily consider two artworks similar just because they both use yellow as their primary color? Or because they both depict a flower?
 
 In LiviaAI, we want to take a different approach. Instead of coming up with our own definitions of similarity, or relying on simple metrics like color, we want to leverage the knowledge that museum curators have already accumulated into their collections over the years. Before teaching computers how to _measure_ similarity, we first want to understand how curators have been _describing_ similar artworks in their collections. 
 
