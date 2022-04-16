@@ -77,8 +77,7 @@
       </ul>
       <button
         id="navAction"
-        class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full mt-4 lg:mt-0 py-4 px-8 shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out"
-      >
+        class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold lg:rounded-full mt-4 lg:mt-0 py-4 px-4 lg:px-8 lg:shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
         Home
       </button>
     </div>

@@ -1,5 +1,18 @@
 <script>
+  import { onMount } from 'svelte';
+
   import "../../app.css";
+
+  onMount(async () => {  
+    var navcontent = document.getElementById("nav-content");
+    var navToggle = document.getElementById('nav-toggle');
+    navToggle.addEventListener('click', function() {
+      if (navcontent.classList.contains('hidden'))
+        navcontent.classList.remove('hidden');
+      else
+        navcontent.classList.add('hidden');
+    });
+  });
 </script>
 
 <nav id="header" class="fixed w-full z-30 top-0 text-white shadow bg-white">
@@ -9,15 +22,26 @@
         LiviaAI
       </a>
     </div>
+
+    <div class="block lg:hidden pr-4">
+      <button id="nav-toggle" class="flex items-center p-1 text-gray-900 hover:text-gray-900 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+        <svg class="fill-current h-6 w-6" viewBox="0 0 20 20" xmlns="http://www.w3.org/2000/svg">
+          <title>Menu</title>
+          <path d="M0 3h20v2H0V3zm0 6h20v2H0V9zm0 6h20v2H0v-2z" />
+        </svg>
+      </button>
+    </div>
     <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
       <ul class="list-reset lg:flex justify-end flex-1 items-center">
         <li class="mr-3">
-          <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="/">Home</a>
-        </li>
-        <li class="mr-3">
-          <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="/blog/sample">Blog</a>
+          <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="/blog/sample">Blog</a>
         </li>
       </ul>
+      <button
+        id="navAction"
+        class="mx-auto lg:mx-0 text-gray-800 font-bold mt-4 lg:mt-0 py-4 px-4 lg:px-8 focus:outline-none focus:shadow-outline">
+        <a href="/">Home</a>
+      </button>
     </div>
   </div>
   <hr class="border-b border-gray-100 opacity-25 my-0 py-0" />
