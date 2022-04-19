@@ -10,7 +10,7 @@ url: https://liviaai.at/blog/2022-04-hello-world
 
 Welcome to the new blog for our project __Linking Viennese Art through Artificial Intelligence__ or, as we like to call it - __LiviaAI!__ LiviaAI will be a one-year long investigation, funded by the [Jubiläumsfond of the City of Vienna/Austrian Academy of Sciences](https://www.oeaw.ac.at/foerderungen/jubilaeumsfonds), based at the [Universität für Weiterbildung, Krems](https://www.donau-uni.ac.at/de.html) and in partnership with the [Austrian Institute of Technology](https://www.ait.ac.at), the [Belvedere Museum Wien](https://www.belvedere.at), the [Museum für Angewandte Kunst](https://www.mak.at) and the [Wien Museum](https://www.wienmuseum.at). 
 
-Over the next months, we will reporting on our progress here, keeping you up to date on where we are and what we find, what we don’t find and what surprises might be in store. But first, a bit of background...
+Over the next months, we will report on our progress here, and keep you up to date on where we are and what we find, what we don’t find and what surprises might be in store. But first, a bit of background...
 
 ## The What
 
