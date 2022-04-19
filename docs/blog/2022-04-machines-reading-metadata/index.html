@@ -8,12 +8,12 @@
 		<meta http-equiv="content-security-policy" content="">
 	<link rel="stylesheet" href="/_app/assets/app-4a97f347.css">
 	<link rel="stylesheet" href="/_app/assets/pages/blog/__layout.svelte-27041123.css">
-	<link rel="modulepreload" href="/_app/start-992a9f87.js">
+	<link rel="modulepreload" href="/_app/start-b5e091be.js">
 	<link rel="modulepreload" href="/_app/chunks/vendor-ea2447eb.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-930164ba.js">
 	<link rel="modulepreload" href="/_app/pages/blog/__layout.svelte-127dfbd3.js">
-	<link rel="modulepreload" href="/_app/pages/blog/2022-04-machines-reading-metadata.md-5b48ad62.js"><script type="module">
-		import { start } from "/_app/start-992a9f87.js";
+	<link rel="modulepreload" href="/_app/pages/blog/2022-04-machines-reading-metadata.md-67ca734a.js"><script type="module">
+		import { start } from "/_app/start-b5e091be.js";
 		start({
 			target: document.querySelector("body"),
 			paths: {"base":"","assets":""},
@@ -27,7 +27,7 @@
 				nodes: [
 					import("/_app/pages/__layout.svelte-930164ba.js"),
 						import("/_app/pages/blog/__layout.svelte-127dfbd3.js"),
-						import("/_app/pages/blog/2022-04-machines-reading-metadata.md-5b48ad62.js")
+						import("/_app/pages/blog/2022-04-machines-reading-metadata.md-67ca734a.js")
 				],
 				url: new URL("http://sveltekit-prerender/blog/2022-04-machines-reading-metadata"),
 				params: {}
@@ -60,7 +60,9 @@
 <p>Our three partners, the <a href="https://www.belvedere.at/" rel="nofollow">Belvedere Museum Wien</a>, the <a href="https://www.mak.at" rel="nofollow">Museum für angewandte Kunst</a> and the <a href="https://www.wienmuseum.at/" rel="nofollow">Wien Museum</a> have given us access to metadata for all artworks they display in their public online collections. In total, that’s more than 300.000 objects! The metadata includes a mix of information such as: title and description text, subjects keywords and classification terms, artist names, summary information on provenance or exhibition history, information about material, production, places and time periods relevant to the artwork, etc.</p>
 <p>Each partner uses different documentation practices, and has different priorities when describing their artworks. Properties that are recorded in the MAK collection, for example, may not be relevant in the Belvedere collection. Therefore, figuring out which artworks might be similar - according to what the curators tell us about them in the metadata - is not quite straightforward.</p>
 <h2>Reading Metadata - From a Distance</h2>
-<p>Luckily, artificial intelligence can help us here, too. In LiviaAI, we use a technique called <a href="https://arxiv.org/abs/1908.10084" rel="nofollow">Sentence Embedding</a> to get a better picture of the structure, themes and topics of our collections. Sentence embedding transforms written text - such as a sentence or a paragraph - to a <em>vector</em>, a numeric representation we can treat as a point in space. There are different algorithms for creating embeddings.  </p>
+<p>Luckily, artificial intelligence can help us here, too. In LiviaAI, we use a technique called <a href="https://en.wikipedia.org/wiki/Sentence_embedding" rel="nofollow">Sentence Embedding</a> to get a better picture of the structure, themes and topics of our collections. Sentence embedding transforms written text - such as a sentence or a paragraph - to a <em>vector</em>, a numeric representation we can treat as a point in space. There are different algorithms for creating embeddings. Some start on a blank canvas, meaning there are no pre-trained assumptions about the data. You hand them your dataset (say, the entire text of a novel), and the algorithm will organize the sentences into the vector space so that sentences that use (or are surrounded by) similar vocabulary are closer together.</p>
+<p>Other algorithms come with pre-loaded information. In our case, we use <a href="https://en.wikipedia.org/wiki/BERT_(language_model)" rel="nofollow">BERT</a> an AI language model developed in 2018 by Google researchers, which was subsequently adapted for the purpose of high-performance <a href="https://arxiv.org/abs/1908.10084" rel="nofollow">sentence embedding</a>. The advantage of using a pre-trained language model is that it already carries a large amount of latent knowledge about how words and concepts relate in a language. In simplified terms, the model already encodes the information that a “pair of boots” is closer in meaning to a “pair of sneakers” than  “pair of pants”. It would place “drawing” at a certain distance from “photograph”. But “drawing of a person” might be closer “photograph of a person” than “drawing” and “photograph” alone.</p>
+<p>The idea of using sentence embeddings to organize our metdata first, and then pick training images from the results, was what triggered us to propose the LiviaAI project in the first place. It was tested successfully <a href="https://arxiv.org/pdf/2003.12265.pdf" rel="nofollow">in a different context, and with a slightly different approach by AIT colleague Alexander Schindler and colleagues</a>. Which means we… sort of… know it will work. But it all depends significantly on the data - it’s level of detail, how much information each individual record contains, whether curators have used free text vs keywords, whether individual records differ sufficiently or whether information is often sparse and formulaic or repetitive, etc.</p>
 <iframe src="/embeds/blog/2022-04/embeddings-example.html" style="width:800px; height:600px;"></iframe>
 <span class="image-caption">Fig. 2. Sentence embeddings for 6,200 metadata records from the online collection of the Wien Museum, projected to 3 dimensions. Color represents a distinct combination of classifications assigned by the curators.</span></div></div></section>
 
