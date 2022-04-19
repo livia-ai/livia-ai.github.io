@@ -17,13 +17,13 @@
 		<meta http-equiv="content-security-policy" content=""><title>LiviaAI | Hello World!</title><meta name="description" content="Welcome to the blog for the project Linking Viennese Art through Artificial Intelligence (or, as we like to call it - LiviaAI), a one-year long investigation, funded by the Jubiläumsfond of the City of Vienna/Austrian Academy of Sciences, based at the Universität für Weiterbildung, Krems and in partnership with the Austrian Institute of Technology, the Belvedere Museum Wien, the Museum für Angewandte Kunst and the Wien Museum." data-svelte="svelte-4med8m"><meta name="twitter:title" content="Hello World!" data-svelte="svelte-4med8m"><meta name="twitter:description" content="Welcome to the blog for the project Linking Viennese Art through Artificial Intelligence (or, as we like to call it - LiviaAI), a one-year long investigation, funded by the Jubiläumsfond of the City of Vienna/Austrian Academy of Sciences, based at the Universität für Weiterbildung, Krems and in partnership with the Austrian Institute of Technology, the Belvedere Museum Wien, the Museum für Angewandte Kunst and the Wien Museum." data-svelte="svelte-4med8m"><meta property="og:title" content="Hello World!" data-svelte="svelte-4med8m"><meta property="og:description" content="Welcome to the blog for the project Linking Viennese Art through Artificial Intelligence (or, as we like to call it - LiviaAI), a one-year long investigation, funded by the Jubiläumsfond of the City of Vienna/Austrian Academy of Sciences, based at the Universität für Weiterbildung, Krems and in partnership with the Austrian Institute of Technology, the Belvedere Museum Wien, the Museum für Angewandte Kunst and the Wien Museum." data-svelte="svelte-4med8m"><meta property="og:url" content="https://liviaai.at/blog/2022-04-hello-world" data-svelte="svelte-4med8m">
 	<link rel="stylesheet" href="/_app/assets/app-b5dbe17d.css">
 	<link rel="stylesheet" href="/_app/assets/pages/blog/__layout.svelte-27041123.css">
-	<link rel="modulepreload" href="/_app/start-5e3244b1.js">
+	<link rel="modulepreload" href="/_app/start-cfcf681a.js">
 	<link rel="modulepreload" href="/_app/chunks/vendor-b56f9969.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-87d7790d.js">
 	<link rel="modulepreload" href="/_app/pages/blog/__layout.svelte-ee3461bc.js">
-	<link rel="modulepreload" href="/_app/pages/blog/2022-04-hello-world.md-3af574f2.js">
+	<link rel="modulepreload" href="/_app/pages/blog/2022-04-hello-world.md-620e1f2d.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-749b8f63.js"><script type="module">
-		import { start } from "/_app/start-5e3244b1.js";
+		import { start } from "/_app/start-cfcf681a.js";
 		start({
 			target: document.querySelector("body"),
 			paths: {"base":"","assets":""},
@@ -37,7 +37,7 @@
 				nodes: [
 					import("/_app/pages/__layout.svelte-87d7790d.js"),
 						import("/_app/pages/blog/__layout.svelte-ee3461bc.js"),
-						import("/_app/pages/blog/2022-04-hello-world.md-3af574f2.js")
+						import("/_app/pages/blog/2022-04-hello-world.md-620e1f2d.js")
 				],
 				url: new URL("http://sveltekit-prerender/blog/2022-04-hello-world"),
 				params: {}
@@ -76,7 +76,7 @@
 <h2>The How</h2>
 <p>LiviaAI makes use of some of the most recent approaches in machine learning and natural language processing. Our project goal is to develop an AI model that  recognizes similarity between images of artworks, based on their visual content. In order to do this, we will collect examples of images that are “similar”, and those that are “different”, so that the AI can learn from them. The bad news: in order to make this work, we need <strong>a lot</strong> of examples. We estimate somewhere between 20.000 and 50.000 - which is a lot more than we can assemble by hand!</p>
 <p>So, how will we get enough examples, without spending years collecting them manually? And how do we even define what “similarity” is, or looks like? This is where natural language processing comes in: Before we even start to work with the images, we will collect the image metadata records from our museum partners - the descriptions, keywords, notes that the curators have entered into their collection databases, the people and places connected to the artworks, etc. We will apply a technique called <a href="https://en.wikipedia.org/wiki/Sentence_embedding" rel="nofollow">Sentence Embedding</a> to group and cluster our metadata records, and then pick our training examples automatically.</p>
-<p>Will this work? Well, let’s just say <a href="https://arxiv.org/pdf/2003.12265.pdf" rel="nofollow">pervious experiments reported in the literature</a> have made us confident enough that it <em>can</em> work - which is why we proposed this project! Bear with us as we work out the details, and follow our blog for the updates. </p>
+<p>Will this work? Well, let’s just say <a href="https://arxiv.org/pdf/2003.12265.pdf" rel="nofollow">previous experiments reported in the literature</a> have made us confident enough that it <em>can</em> work - which is why we proposed this project! Bear with us as we work out the details, and follow our blog for the updates. </p>
 <h2>The Who</h2>
 <p>The LiviaAI team comes from all sorts of backgrounds - we’re a diverse bunch! The Co-PIs of the the project are <a href="https://www.donau-uni.ac.at/de/universitaet/organisation/mitarbeiterinnen/person/4295316299" rel="nofollow">Dr Nicole High-Steskal</a>, Research Associate in the Department for Arts and Cultural Studies at the Universität für Weiterbildung, Krems, and <a href="https://rsimon.github.io" rel="nofollow">Dr Rainer Simon</a>, Senior Scientist in the Data Science and Artificial Intelligence unit at the Austrian Institute of Technology. The project staff is rounded out by <a href="https://at.linkedin.com/in/michaela-feurstein-prasser-51a55367?challengeId=AQF6Z4XU1IYQPQAAAYBA6IJQuEshOJuiUTDHWOIpql-E5bpOhZ7tCMoPH3UgZsFpj0nuqTriv_Lwb56DmY_Jn4dGu9ms19HJPQ&submissionId=6829cdbe-6b3e-e716-fa7d-4e1a0f07935a" rel="nofollow">Michaela Feurstein-Prasser</a>, a freelance curator and cultural mediator based in Vienna, and Bernhard Franzl, student of Artificial Intelligence at the University of Linz. <a href="https://rewire.univie.ac.at/fellows/kahn-rebecca-josina" rel="nofollow">Dr Rebecca Kahn</a>, a post-doctoral researcher in the History Department at the University of Vienna and leader of the project TSLIM - a Marie Sklodowska Curie Actions COFUND project funded by the European Commission - is also involved in LiviaAI as a project consultant. </p>
 <h2>Where We Are Now</h2>

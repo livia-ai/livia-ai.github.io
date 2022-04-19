@@ -36,7 +36,7 @@ LiviaAI makes use of some of the most recent approaches in machine learning and 
 
 So, how will we get enough examples, without spending years collecting them manually? And how do we even define what "similarity" is, or looks like? This is where natural language processing comes in: Before we even start to work with the images, we will collect the image metadata records from our museum partners - the descriptions, keywords, notes that the curators have entered into their collection databases, the people and places connected to the artworks, etc. We will apply a technique called [Sentence Embedding](https://en.wikipedia.org/wiki/Sentence_embedding) to group and cluster our metadata records, and then pick our training examples automatically.
 
-Will this work? Well, let's just say [pervious experiments reported in the literature](https://arxiv.org/pdf/2003.12265.pdf) have made us confident enough that it _can_ work - which is why we proposed this project! Bear with us as we work out the details, and follow our blog for the updates. 
+Will this work? Well, let's just say [previous experiments reported in the literature](https://arxiv.org/pdf/2003.12265.pdf) have made us confident enough that it _can_ work - which is why we proposed this project! Bear with us as we work out the details, and follow our blog for the updates. 
 
 ## The Who
 
