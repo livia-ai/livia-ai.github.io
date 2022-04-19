@@ -50,8 +50,9 @@ a {
   font-family:'Times New Roman', Times, serif;
   font-weight:bold;
   display:inline-block;
-  padding:20px 30px;
-  text-align:center;
+  padding:20px 0 40px 0;
+  font-size:15px;
+  color:#333;
 }
 
 iframe {
