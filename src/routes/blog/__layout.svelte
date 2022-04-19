@@ -15,6 +15,7 @@
   });
 </script>
 
+
 <nav id="header" class="fixed w-full z-30 top-0 text-white shadow bg-white">
   <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
     <div class="pl-4 flex items-center">
@@ -50,7 +51,7 @@
 <section class="bg-white py-8">
   <div class="container max-w-5xl mx-auto m-8 blogpost">
     <div class="w-6/6 sm:w-2/2 p-6 text-gray-600">
-      
+
       <slot />
 
     </div>

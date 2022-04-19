@@ -15,7 +15,10 @@ const config = {
 
 	preprocess: [
     mdsvex({
-      extensions: ['.md']
+      extensions: ['.md'],
+			layout: {
+        blog: 'src/routes/blog/_post.svelte'
+      }
     })
   ]
 };
