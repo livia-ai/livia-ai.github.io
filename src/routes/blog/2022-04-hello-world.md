@@ -34,7 +34,7 @@ LiviaAI makes use of some of the most recent approaches in machine learning and 
 
 So, how will we get enough examples, without spending years collecting them manually? And how do we even define what "similarity" is, or looks like? This is where natural language processing comes in: Before we even start to work with the images, we will collect the __image metadata records__ from our museum partners - the descriptions, keywords, notes that the curators have entered into their collection databases, the people and places connected to the artworks, etc. We will apply a technique called [Sentence Embedding](https://en.wikipedia.org/wiki/Sentence_embedding) to group and cluster our metadata records, and then pick our training examples automatically.
 
-Will this work? [First experiments](https://arxiv.org/pdf/2003.12265.pdf) have suggested it _might_ - which is why we have proposed this project! Bear with us as we work out the details, and keep you updated on this blog!
+Will this work? Well, let's just say [pervious experiments reported in the literature](https://arxiv.org/pdf/2003.12265.pdf) have made us confident enough that it _can_ work - which is why we proposed this project! Bear with us as we work out the details, and follow our blog for the updates. 
 
 ## The Who
 
@@ -42,4 +42,6 @@ The LiviaAI team comes from all sorts of backgrounds - we’re a diverse bunch! 
 
 ## Where We Are Now
 
-The project is beginning to gather steam! We collected the metadata from our museum partners and are now starting to experiment with different clustering approaches in April. We are also organising a workshop in early May to meet with the museum partners, share our initial results, and get some ideas from them about how their data is used by researchers and visitors, so that we can plan the next phase of data explorations. We’re planning to share regular updates on our progress at every stage, so keep an eye on things here!
+The project is beginning to gather steam! We collected the metadata from our museum partners and are now starting to experiment with different clustering approaches in April. (A blog post about our first experiences with Sentence Embedding and similarity is coming soon!) 
+
+We are also organising a workshop in early May to meet with the museum partners, share our initial results, and get some ideas from them about how their data is used by researchers and visitors, so that we can plan the next phase of data explorations. We’re planning to share regular updates on our progress at every stage, so keep an eye on things here!
