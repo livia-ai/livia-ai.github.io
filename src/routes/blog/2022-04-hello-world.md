@@ -1,5 +1,5 @@
 ---
-title: Hello World
+title: Hello World!
 description: Welcome to the blog for the project Linking Viennese Art through Artificial Intelligence (or, as we like to call it - LiviaAI), a one-year long investigation, funded by the Jubiläumsfond of the City of Vienna/Austrian Academy of Sciences, based at the Universität für Weiterbildung, Krems and in partnership with the Austrian Institute of Technology, the Belvedere Museum Wien, the Museum für Angewandte Kunst and the Wien Museum.
 url: https://liviaai.at/blog/2022-04-hello-world
 ---
