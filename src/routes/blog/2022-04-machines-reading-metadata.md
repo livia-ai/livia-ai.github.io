@@ -10,7 +10,7 @@ The big question is, of course: what _does_ make two artworks similar? And how d
 
 In LiviaAI, we want to take a different approach. Instead of coming up with our own metrics for similarity, or relying on technical properties like color, we want to leverage the existing knowledge that museum curators have accumulated in their collections over many years. In order to teach computers how to recognize similar _images_, we first want to understand how curators have been describing them - and search for similarity in these _descriptions_.
 
-Once we have identified artworks that are described in similar terms, we will use their images to train the algorithm. This approach is also called[representation or feature learning](https://en.wikipedia.org/wiki/Feature_learning), because the algorithm learns how the representation of similiarity manifests itself in the images.
+Once we have identified artworks that are described in similar terms, we will use their images to train the algorithm. This approach is also called [representation or feature learning](https://en.wikipedia.org/wiki/Feature_learning), because the algorithm learns how the representation of similiarity manifests itself in the images.
 
 ## Understanding Our Partner Collections 
 
@@ -24,7 +24,7 @@ Each partner uses different documentation practices, and has different prioritie
 
 ## Reading Metadata - From a Distance
 
-Luckily, artificial intelligence can help us here, too. In LiviaAI, we use a technique called [Sentence Embedding](https://arxiv.org/abs/1908.10084) to get a better picture of the structure, themes and topics of our collections. Sentence embedding transforms written text - such as a sentence or a paragraph - to a _vector_, a numeric representation we can treat as a point in space. There are different algorithms for doing that.  
+Luckily, artificial intelligence can help us here, too. In LiviaAI, we use a technique called [Sentence Embedding](https://arxiv.org/abs/1908.10084) to get a better picture of the structure, themes and topics of our collections. Sentence embedding transforms written text - such as a sentence or a paragraph - to a _vector_, a numeric representation we can treat as a point in space. There are different algorithms for creating embeddings.  
 
 <iframe 
   src="/embeds/blog/2022-04/embeddings-example.html"

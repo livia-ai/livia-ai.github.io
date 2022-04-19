@@ -8,12 +8,12 @@
 		<meta http-equiv="content-security-policy" content="">
 	<link rel="stylesheet" href="/_app/assets/app-4a97f347.css">
 	<link rel="stylesheet" href="/_app/assets/pages/blog/__layout.svelte-27041123.css">
-	<link rel="modulepreload" href="/_app/start-fb242184.js">
+	<link rel="modulepreload" href="/_app/start-8c17fbcb.js">
 	<link rel="modulepreload" href="/_app/chunks/vendor-ea2447eb.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-930164ba.js">
 	<link rel="modulepreload" href="/_app/pages/blog/__layout.svelte-127dfbd3.js">
-	<link rel="modulepreload" href="/_app/pages/blog/2022-04-machines-reading-metadata.md-5d42dfcc.js"><script type="module">
-		import { start } from "/_app/start-fb242184.js";
+	<link rel="modulepreload" href="/_app/pages/blog/2022-04-machines-reading-metadata.md-79d9793b.js"><script type="module">
+		import { start } from "/_app/start-8c17fbcb.js";
 		start({
 			target: document.querySelector("body"),
 			paths: {"base":"","assets":""},
@@ -27,7 +27,7 @@
 				nodes: [
 					import("/_app/pages/__layout.svelte-930164ba.js"),
 						import("/_app/pages/blog/__layout.svelte-127dfbd3.js"),
-						import("/_app/pages/blog/2022-04-machines-reading-metadata.md-5d42dfcc.js")
+						import("/_app/pages/blog/2022-04-machines-reading-metadata.md-79d9793b.js")
 				],
 				url: new URL("http://sveltekit-prerender/blog/2022-04-machines-reading-metadata"),
 				params: {}
@@ -53,14 +53,14 @@
 <h2>Similar or Not?</h2>
 <p>The big question is, of course: what <em>does</em> make two artworks similar? And how do we even get enough of the right data to teach a machine to mimic our understanding of similarity? Previous approaches have been looking, for example, at similar colours. Or they used artificial intelligence to detect common objects in the artworks. But would you necessarily consider two artworks similar just because they both use yellow as their primary color? Or because they both depict flowers?</p>
 <p>In LiviaAI, we want to take a different approach. Instead of coming up with our own metrics for similarity, or relying on technical properties like color, we want to leverage the existing knowledge that museum curators have accumulated in their collections over many years. In order to teach computers how to recognize similar <em>images</em>, we first want to understand how curators have been describing them - and search for similarity in these <em>descriptions</em>.</p>
-<p>Once we have identified artworks that are described in similar terms, we will use their images to train the algorithm. This approach is also called<a href="https://en.wikipedia.org/wiki/Feature_learning" rel="nofollow">representation or feature learning</a>, because the algorithm learns how the representation of similiarity manifests itself in the images.</p>
+<p>Once we have identified artworks that are described in similar terms, we will use their images to train the algorithm. This approach is also called <a href="https://en.wikipedia.org/wiki/Feature_learning" rel="nofollow">representation or feature learning</a>, because the algorithm learns how the representation of similiarity manifests itself in the images.</p>
 <h2>Understanding Our Partner Collections</h2>
 <p>The first step in our journey is therefore to gain an understanding of our partner collections. What’s actually inside them? What information have curators added to the items as metadata? And how can we translate all this existing knowledge (and years of work!) into data that can teach computers to recognize similar art?</p>
 <p>[…perhaps two examples of artworks + metadata - maybe the Lusthaus from two partners?…]</p>
 <p>Our three partners, the <a href="https://www.belvedere.at/" rel="nofollow">Belvedere Museum Wien</a>, the <a href="https://www.mak.at" rel="nofollow">Museum für angewandte Kunst</a> and the <a href="https://www.wienmuseum.at/" rel="nofollow">Wien Museum</a> have given us access to metadata for all artworks they display in their public online collections. In total, that’s more than 300.000 objects! The metadata includes a mix of information such as: title and description text, subjects keywords and classification terms, artist names, summary information on provenance or exhibition history, information about material, production, places and time periods relevant to the artwork, etc.</p>
 <p>Each partner uses different documentation practices, and has different priorities when describing their artworks. Properties that are recorded in the MAK collection, for example, may not be relevant in the Belvedere collection. Therefore, figuring out which artworks might be similar - according to what the curators tell us about them in the metadata - is not quite straightforward.</p>
 <h2>Reading Metadata - From a Distance</h2>
-<p>Luckily, artificial intelligence can help us here, too. In LiviaAI, we use a technique called <a href="https://arxiv.org/abs/1908.10084" rel="nofollow">Sentence Embedding</a> to get a better picture of the structure, themes and topics of our collections. Sentence embedding transforms written text - such as a sentence or a paragraph - to a <em>vector</em>, a numeric representation we can treat as a point in space. There are different algorithms for doing that.  </p>
+<p>Luckily, artificial intelligence can help us here, too. In LiviaAI, we use a technique called <a href="https://arxiv.org/abs/1908.10084" rel="nofollow">Sentence Embedding</a> to get a better picture of the structure, themes and topics of our collections. Sentence embedding transforms written text - such as a sentence or a paragraph - to a <em>vector</em>, a numeric representation we can treat as a point in space. There are different algorithms for creating embeddings.  </p>
 <iframe src="/embeds/blog/2022-04/embeddings-example.html" style="width:800px; height:600px;"></iframe>
 <span class="image-caption">Fig. 2. Sentence embeddings for 6,200 metadata records from the online collection of the Wien Museum, projected to 3 dimensions. Color represents a distinct combination of classifications assigned by the curators.</span></div></div></section>
 
