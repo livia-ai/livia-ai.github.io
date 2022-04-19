@@ -17,13 +17,13 @@
 		<meta http-equiv="content-security-policy" content=""><title>LiviaAI | Machines Reading Metadata</title><meta name="description" content="It&#39;s time for the first update from the tech team! The tech team, that&#39;s us: intern Bernhard, student of Artificial Intelligence at the University of Linz, and me, Rainer, Senior Researcher at the Data Science &amp; Artificial Intelligence group at the Austrian Institute of Technology." data-svelte="svelte-4med8m"><meta name="twitter:title" content="Machines Reading Metadata" data-svelte="svelte-4med8m"><meta name="twitter:description" content="It&#39;s time for the first update from the tech team! The tech team, that&#39;s us: intern Bernhard, student of Artificial Intelligence at the University of Linz, and me, Rainer, Senior Researcher at the Data Science &amp; Artificial Intelligence group at the Austrian Institute of Technology." data-svelte="svelte-4med8m"><meta property="og:title" content="Machines Reading Metadata" data-svelte="svelte-4med8m"><meta property="og:description" content="It&#39;s time for the first update from the tech team! The tech team, that&#39;s us: intern Bernhard, student of Artificial Intelligence at the University of Linz, and me, Rainer, Senior Researcher at the Data Science &amp; Artificial Intelligence group at the Austrian Institute of Technology." data-svelte="svelte-4med8m"><meta property="og:url" content="https://liviaai.at/blog/2022-04-machines-reading-metadata" data-svelte="svelte-4med8m">
 	<link rel="stylesheet" href="/_app/assets/app-ac4388e5.css">
 	<link rel="stylesheet" href="/_app/assets/pages/blog/__layout.svelte-27041123.css">
-	<link rel="modulepreload" href="/_app/start-569b18b2.js">
+	<link rel="modulepreload" href="/_app/start-1ad8dbae.js">
 	<link rel="modulepreload" href="/_app/chunks/vendor-b56f9969.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-87d7790d.js">
 	<link rel="modulepreload" href="/_app/pages/blog/__layout.svelte-ee3461bc.js">
-	<link rel="modulepreload" href="/_app/pages/blog/2022-04-machines-reading-metadata.md-86cf7c6b.js">
+	<link rel="modulepreload" href="/_app/pages/blog/2022-04-machines-reading-metadata.md-5f2ade77.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-749b8f63.js"><script type="module">
-		import { start } from "/_app/start-569b18b2.js";
+		import { start } from "/_app/start-1ad8dbae.js";
 		start({
 			target: document.querySelector("body"),
 			paths: {"base":"","assets":""},
@@ -37,7 +37,7 @@
 				nodes: [
 					import("/_app/pages/__layout.svelte-87d7790d.js"),
 						import("/_app/pages/blog/__layout.svelte-ee3461bc.js"),
-						import("/_app/pages/blog/2022-04-machines-reading-metadata.md-86cf7c6b.js")
+						import("/_app/pages/blog/2022-04-machines-reading-metadata.md-5f2ade77.js")
 				],
 				url: new URL("http://sveltekit-prerender/blog/2022-04-machines-reading-metadata"),
 				params: {}
@@ -77,7 +77,7 @@
 <p>Here’s an example for how BERT grants us a new perspective on our data. The diagram below visualizes 6.200 records from the Wien Museum. (That’s only about 10% of their total collection. But it helps to make the diagram load a bit faster in this blogpost.) Each metadata record from the collection is represented as a point in 3D space<a class="footnote" href="#footnote-1">1</a>. We have colored the dots according to the combination of categories assigned to the metadata record. Which means we’d expect a to see a pattern where dots of similar color should form clusters. And - luckily - that’s the case. The diagram is interactive! Try zooming/panning with mouse or touch, and explore the clusters that have emerged. </p>
 <iframe src="/embeds/blog/2022-04/embeddings-example.html" style="width:800px; height:600px;"></iframe>
 <span class="image-caption centered">Sentence embeddings for 6,200 metadata records from the online collection of the Wien Museum, projected to three dimensions. Color represents a distinct combination of classifications assigned by the curators.</span>
-<p>We are currently sifting through our data, and are starting to draw samples of “similar” and “different” images to get a better grip on the possiblities and limitations of the approach. Picking training data based on sentence embeddings is an idea that was initially developed - and tested successfully - <a href="https://arxiv.org/pdf/2003.12265.pdf" rel="nofollow">in a different context by AIT colleague Alexander Schindler et al.</a>. Which means we are… sort of… confident that this will work. But it’s all crucially dependent on the data - quality, level of detail, whether curators have used free text vs. keywords, whether individual records differ sufficiently from each other, or whether information is often sparse, formulaic or repetitive, etc.</p>
+<p>We are currently sifting through our data, and are starting to draw samples of “similar” and “different” images to get a better grip on the possiblities and limitations of the approach. Picking training data based on sentence embeddings is an idea that was initially developed - and tested successfully - <a href="https://arxiv.org/pdf/2003.12265.pdf" rel="nofollow">in a different context by AIT colleague Alexander Schindler et al.</a>, who also inspired and advised on the preparation of this project. Which means we are… sort of… confident that this will work. But it’s all crucially dependent on the data - quality, level of detail, whether curators have used free text vs. keywords, whether individual records differ sufficiently from each other, or whether information is often sparse, formulaic or repetitive, etc.</p>
 <p>For now, the goal is only to have enough material to fuel discussions for our upcoming workshop. But our journey is guaranteed to remain exciting!</p>
 <ol class="footnotes"><li id="footnote-1">For the sake of completeness: sentence embeddings work in higher dimensional space. For example, we are using 50 dimensions to compute our clusters and distances. So, technically, what you see in the diagram are 50-dimensional embeddings, projected to 3 dimensions for the purpose of visualization. For this reason, the 3D visualization isn&#39;t always able to correctly capture the cluster pattern.</li></ol></div></div></section>
 
