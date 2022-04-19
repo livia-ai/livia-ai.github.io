@@ -8,7 +8,9 @@ As we explained in our [introductory post](#), the main goal of LiviaAI is to fi
 
 The big question is, of course: what _does_ make two artworks similar? And how do we even get enough of the right data to teach a machine to mimic our understanding of similarity? Previous approaches have been looking, for example, at similar colours. Or they used artificial intelligence to detect common objects in the artworks. But would you necessarily consider two artworks similar just because they both use yellow as their primary color? Or because they both depict flowers?
 
-In LiviaAI, we want to take a different approach. Instead of coming up with our own metrics for similarity, or relying on technical properties like color, we want to leverage the existing knowledge that museum curators have accumulated in their collections over many years. In order to teach computers how to recognize similar _images_, we first want to understand how curators have been describing them - and search for similarity in these _descriptions_. 
+In LiviaAI, we want to take a different approach. Instead of coming up with our own metrics for similarity, or relying on technical properties like color, we want to leverage the existing knowledge that museum curators have accumulated in their collections over many years. In order to teach computers how to recognize similar _images_, we first want to understand how curators have been describing them - and search for similarity in these _descriptions_.
+
+Once we have identified artworks that are described in similar terms, we will use their images to train the algorithm. This approach is also called[representation or feature learning](https://en.wikipedia.org/wiki/Feature_learning), because the algorithm learns how the representation of similiarity manifests itself in the images.
 
 ## Understanding Our Partner Collections 
 
@@ -22,7 +24,7 @@ Each partner uses different documentation practices, and has different prioritie
 
 ## Reading Metadata - From a Distance
 
-Luckily, artificial intelligence can help us here, too. In LiviaAI, we use a technique called [Sentence Embedding](https://arxiv.org/abs/1908.10084) to get a better picture of the structure, themes and topics of our collections. [..TODO...]
+Luckily, artificial intelligence can help us here, too. In LiviaAI, we use a technique called [Sentence Embedding](https://arxiv.org/abs/1908.10084) to get a better picture of the structure, themes and topics of our collections. Sentence embedding transforms written text - such as a sentence or a paragraph - to a _vector_, a numeric representation we can treat as a point in space. There are different algorithms for doing that.  
 
 <iframe 
   src="/embeds/blog/2022-04/embeddings-example.html"
@@ -30,18 +32,5 @@ Luckily, artificial intelligence can help us here, too. In LiviaAI, we use a tec
 </iframe>
 
 <span class="image-caption">Fig. 2. Sentence embeddings for 6,200 metadata records from the online collection of the Wien Museum, projected to 3 dimensions. Color represents a distinct combination of classifications assigned by the curators.</span>
-
-
-[...unfinished... material for re-use ...]
-
-
-- First, we will collect examples of images that are "similar" in some way. We will also collect counter-examples, so that the
-  computer can learn what "different" images look like. (More on the ways in which images might resemble or differ later.) 
-- Second, we will use the examples to train an AI algorithm, so that it learns how "similarity" manifests itself in the image. Or, 
-  in other words: so that it learns what to look for in similar vs. different images. (This process is called 
-  [representation or feature learning](https://en.wikipedia.org/wiki/Feature_learning)).
-
-The bad news: we need __a lot__ of examples to train the AI. We expect that we'll need at least 10.000 examples as the absolute minimum. And that's a much bigger training set than we could ever assemble by hand.
-
 
 

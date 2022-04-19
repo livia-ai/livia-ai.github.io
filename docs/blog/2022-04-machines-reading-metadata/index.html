@@ -8,12 +8,12 @@
 		<meta http-equiv="content-security-policy" content="">
 	<link rel="stylesheet" href="/_app/assets/app-4a97f347.css">
 	<link rel="stylesheet" href="/_app/assets/pages/blog/__layout.svelte-27041123.css">
-	<link rel="modulepreload" href="/_app/start-fd1748bb.js">
+	<link rel="modulepreload" href="/_app/start-fb242184.js">
 	<link rel="modulepreload" href="/_app/chunks/vendor-ea2447eb.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-930164ba.js">
 	<link rel="modulepreload" href="/_app/pages/blog/__layout.svelte-127dfbd3.js">
-	<link rel="modulepreload" href="/_app/pages/blog/2022-04-machines-reading-metadata.md-62ff80a5.js"><script type="module">
-		import { start } from "/_app/start-fd1748bb.js";
+	<link rel="modulepreload" href="/_app/pages/blog/2022-04-machines-reading-metadata.md-5d42dfcc.js"><script type="module">
+		import { start } from "/_app/start-fb242184.js";
 		start({
 			target: document.querySelector("body"),
 			paths: {"base":"","assets":""},
@@ -27,7 +27,7 @@
 				nodes: [
 					import("/_app/pages/__layout.svelte-930164ba.js"),
 						import("/_app/pages/blog/__layout.svelte-127dfbd3.js"),
-						import("/_app/pages/blog/2022-04-machines-reading-metadata.md-62ff80a5.js")
+						import("/_app/pages/blog/2022-04-machines-reading-metadata.md-5d42dfcc.js")
 				],
 				url: new URL("http://sveltekit-prerender/blog/2022-04-machines-reading-metadata"),
 				params: {}
@@ -52,23 +52,17 @@
 <p>As we explained in our <a href="#">introductory post</a>, the main goal of LiviaAI is to find out whether we can teach computers to recognize “similarity” of artworks. Why? For two reasons: first, because this will allow museums in the future to <strong>connect their collections to those of other museums more easily</strong>. Computers can handle most of the tedious, time-consuming work of sorting through thousands of artworks, and finding relevant related material in other museums, thus saving museum curators many hours of their valuable time. Second, we believe that these new connections will enable <strong>new forms of online museum experiences that cross institutional boundaries</strong>. Interested in the <a href="https://en.wikipedia.org/wiki/Wiener_Moderne" rel="nofollow">Wiener Moderne</a>? Then why stay within the confines of just one or two famous museums, when other, smaller, museums might house some lesser known treasures, too?</p>
 <h2>Similar or Not?</h2>
 <p>The big question is, of course: what <em>does</em> make two artworks similar? And how do we even get enough of the right data to teach a machine to mimic our understanding of similarity? Previous approaches have been looking, for example, at similar colours. Or they used artificial intelligence to detect common objects in the artworks. But would you necessarily consider two artworks similar just because they both use yellow as their primary color? Or because they both depict flowers?</p>
-<p>In LiviaAI, we want to take a different approach. Instead of coming up with our own metrics for similarity, or relying on technical properties like color, we want to leverage the existing knowledge that museum curators have accumulated in their collections over many years. In order to teach computers how to recognize similar <em>images</em>, we first want to understand how curators have been describing them - and search for similarity in these <em>descriptions</em>. </p>
+<p>In LiviaAI, we want to take a different approach. Instead of coming up with our own metrics for similarity, or relying on technical properties like color, we want to leverage the existing knowledge that museum curators have accumulated in their collections over many years. In order to teach computers how to recognize similar <em>images</em>, we first want to understand how curators have been describing them - and search for similarity in these <em>descriptions</em>.</p>
+<p>Once we have identified artworks that are described in similar terms, we will use their images to train the algorithm. This approach is also called<a href="https://en.wikipedia.org/wiki/Feature_learning" rel="nofollow">representation or feature learning</a>, because the algorithm learns how the representation of similiarity manifests itself in the images.</p>
 <h2>Understanding Our Partner Collections</h2>
 <p>The first step in our journey is therefore to gain an understanding of our partner collections. What’s actually inside them? What information have curators added to the items as metadata? And how can we translate all this existing knowledge (and years of work!) into data that can teach computers to recognize similar art?</p>
 <p>[…perhaps two examples of artworks + metadata - maybe the Lusthaus from two partners?…]</p>
 <p>Our three partners, the <a href="https://www.belvedere.at/" rel="nofollow">Belvedere Museum Wien</a>, the <a href="https://www.mak.at" rel="nofollow">Museum für angewandte Kunst</a> and the <a href="https://www.wienmuseum.at/" rel="nofollow">Wien Museum</a> have given us access to metadata for all artworks they display in their public online collections. In total, that’s more than 300.000 objects! The metadata includes a mix of information such as: title and description text, subjects keywords and classification terms, artist names, summary information on provenance or exhibition history, information about material, production, places and time periods relevant to the artwork, etc.</p>
 <p>Each partner uses different documentation practices, and has different priorities when describing their artworks. Properties that are recorded in the MAK collection, for example, may not be relevant in the Belvedere collection. Therefore, figuring out which artworks might be similar - according to what the curators tell us about them in the metadata - is not quite straightforward.</p>
 <h2>Reading Metadata - From a Distance</h2>
-<p>Luckily, artificial intelligence can help us here, too. In LiviaAI, we use a technique called <a href="https://arxiv.org/abs/1908.10084" rel="nofollow">Sentence Embedding</a> to get a better picture of the structure, themes and topics of our collections. [..TODO…]</p>
+<p>Luckily, artificial intelligence can help us here, too. In LiviaAI, we use a technique called <a href="https://arxiv.org/abs/1908.10084" rel="nofollow">Sentence Embedding</a> to get a better picture of the structure, themes and topics of our collections. Sentence embedding transforms written text - such as a sentence or a paragraph - to a <em>vector</em>, a numeric representation we can treat as a point in space. There are different algorithms for doing that.  </p>
 <iframe src="/embeds/blog/2022-04/embeddings-example.html" style="width:800px; height:600px;"></iframe>
-<span class="image-caption">Fig. 2. Sentence embeddings for 6,200 metadata records from the online collection of the Wien Museum, projected to 3 dimensions. Color represents a distinct combination of classifications assigned by the curators.</span>
-<p>[…unfinished… material for re-use …]</p>
-<ul><li>First, we will collect examples of images that are “similar” in some way. We will also collect counter-examples, so that the
-computer can learn what “different” images look like. (More on the ways in which images might resemble or differ later.) </li>
-<li>Second, we will use the examples to train an AI algorithm, so that it learns how “similarity” manifests itself in the image. Or,
-in other words: so that it learns what to look for in similar vs. different images. (This process is called
-<a href="https://en.wikipedia.org/wiki/Feature_learning" rel="nofollow">representation or feature learning</a>).</li></ul>
-<p>The bad news: we need <strong>a lot</strong> of examples to train the AI. We expect that we’ll need at least 10.000 examples as the absolute minimum. And that’s a much bigger training set than we could ever assemble by hand.</p></div></div></section>
+<span class="image-caption">Fig. 2. Sentence embeddings for 6,200 metadata records from the online collection of the Wien Museum, projected to 3 dimensions. Color represents a distinct combination of classifications assigned by the curators.</span></div></div></section>
 
 <svg class="wave-top" viewBox="0 0 1439 147" version="1.1" xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink"><g stroke="none" stroke-width="1" fill="none" fill-rule="evenodd"><g transform="translate(-1.000000, -14.000000)" fill-rule="nonzero"><g class="wave" fill="#fff"><path d="M1440,84 C1383.555,64.3 1342.555,51.3 1317,45 C1259.5,30.824 1206.707,25.526 1169,22 C1129.711,18.326 1044.426,18.475 980,22 C954.25,23.409 922.25,26.742 884,32 C845.122,37.787 818.455,42.121 804,45 C776.833,50.41 728.136,61.77 713,65 C660.023,76.309 621.544,87.729 584,94 C517.525,105.104 484.525,106.438 429,108 C379.49,106.484 342.823,104.484 319,102 C278.571,97.783 231.737,88.736 205,84 C154.629,75.076 86.296,57.743 0,32 L0,0 L1440,0 L1440,84 Z"></path></g><g transform="translate(1.000000, 15.000000)" fill="#FFFFFF"><g transform="translate(719.500000, 68.500000) rotate(-180.000000) translate(-719.500000, -68.500000) "><path d="M0,0 C90.7283404,0.927527913 147.912752,27.187927 291.910178,59.9119003 C387.908462,81.7278826 543.605069,89.334785 759,82.7326078 C469.336065,156.254352 216.336065,153.6679 0,74.9732496" opacity="0.100000001"></path><path d="M100,104.708498 C277.413333,72.2345949 426.147877,52.5246657 546.203633,45.5787101 C666.259389,38.6327546 810.524845,41.7979068 979,55.0741668 C931.069965,56.122511 810.303266,74.8455141 616.699903,111.243176 C423.096539,147.640838 250.863238,145.462612 100,104.708498 Z" opacity="0.100000001"></path><path d="M1046,51.6521276 C1130.83045,29.328812 1279.08318,17.607883 1439,40.1656806 L1439,120 C1271.17211,77.9435312 1140.17211,55.1609071 1046,51.6521276 Z" opacity="0.200000003"></path></g></g></g></g></svg>
 
