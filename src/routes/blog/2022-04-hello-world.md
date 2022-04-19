@@ -44,6 +44,6 @@ The LiviaAI team comes from all sorts of backgrounds - we’re a diverse bunch! 
 
 ## Where We Are Now
 
-The project is beginning to gather steam! We collected the metadata from our museum partners and are now starting to experiment with different clustering approaches in April. (A blog post about our first experiences with Sentence Embedding and similarity is coming soon!) 
+The project is beginning to gather steam! We have already collected the metadata from our museum partners and harvested most of the available image content, and are now starting to experiment with different metadata clustering approaches in April. (A blog post about our first experiences with Sentence Embedding and similarity is coming soon!)
 
 We are also organising a workshop in early May to meet with the museum partners, share our initial results, and get some ideas from them about how their data is used by researchers and visitors, so that we can plan the next phase of data explorations. We’re planning to share regular updates on our progress at every stage, so keep an eye on things here!
