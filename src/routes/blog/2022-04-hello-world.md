@@ -8,9 +8,7 @@ url: https://liviaai.at/blog/2022-04-hello-world
 
 <span class="image-caption">Images, left to right: "<a href=" https://sammlung.belvedere.at/objects/4831/lusthaus-im-prater">Lusthaus im Prater</a>", Anton Hans Karlinsky (1929), Belvedere Museum; "<a href="https://sammlung.mak.at/sammlung_online?id=collect-222246">Postkarte Nr. 135, Wien: Lusthaus im Prater</a>", Urban Janke (1908), Museum für Angewandte Kunst; "<a href="https://sammlung.wienmuseum.at/objekt/134151-das-lusthaus-im-prater/">Cafe-Restauration. Lusthaus im k. k. Prater, Wien II</a>", Paul Ledermann (1909), Wien Museum.</span>
 
-Welcome to the new blog for our project __Linking Viennese Art through Artificial Intelligence__ or, as we like to call it - __LiviaAI!__ 
-
-LiviaAI will be a one-year long investigation, funded by the [Jubiläumsfond of the City of Vienna/Austrian Academy of Sciences](https://www.oeaw.ac.at/foerderungen/jubilaeumsfonds), based at the [Universität für Weiterbildung, Krems](https://www.donau-uni.ac.at/de.html) and in partnership with the [Austrian Institute of Technology](https://www.ait.ac.at), the [Belvedere Museum Wien](https://www.belvedere.at), the [Museum für Angewandte Kunst](https://www.mak.at) and the [Wien Museum](https://www.wienmuseum.at). 
+Welcome to the new blog for our project __Linking Viennese Art through Artificial Intelligence__ or, as we like to call it - __LiviaAI!__ LiviaAI will be a one-year long investigation, funded by the [Jubiläumsfond of the City of Vienna/Austrian Academy of Sciences](https://www.oeaw.ac.at/foerderungen/jubilaeumsfonds), based at the [Universität für Weiterbildung, Krems](https://www.donau-uni.ac.at/de.html) and in partnership with the [Austrian Institute of Technology](https://www.ait.ac.at), the [Belvedere Museum Wien](https://www.belvedere.at), the [Museum für Angewandte Kunst](https://www.mak.at) and the [Wien Museum](https://www.wienmuseum.at). 
 
 Over the next months, we will reporting on our progress here, keeping you up to date on where we are and what we find, what we don’t find and what surprises might be in store. But first, a bit of background...
 
