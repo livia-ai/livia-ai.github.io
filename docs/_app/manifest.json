@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-dc91d969.js",
+    "file": "start-80542780.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -12,8 +12,7 @@
       "src/routes/index.svelte",
       "src/routes/blog/__layout.svelte",
       "src/routes/blog/2022-04-machines-reading-metadata.md",
-      "src/routes/blog/2022-04-hello-world.md",
-      "src/routes/blog/sample.md"
+      "src/routes/blog/2022-04-hello-world.md"
     ]
   },
   "src/routes/__layout.svelte": {
@@ -38,7 +37,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-2e1b45c3.js",
+    "file": "pages/index.svelte-522fd7d4.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -47,7 +46,7 @@
     ]
   },
   "src/routes/blog/__layout.svelte": {
-    "file": "pages/blog/__layout.svelte-e8a007ae.js",
+    "file": "pages/blog/__layout.svelte-ee3461bc.js",
     "src": "src/routes/blog/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -72,16 +71,6 @@
   "src/routes/blog/2022-04-hello-world.md": {
     "file": "pages/blog/2022-04-hello-world.md-c70fe5c5.js",
     "src": "src/routes/blog/2022-04-hello-world.md",
-    "isEntry": true,
-    "isDynamicEntry": true,
-    "imports": [
-      "_vendor-b56f9969.js",
-      "__post-51b9caa6.js"
-    ]
-  },
-  "src/routes/blog/sample.md": {
-    "file": "pages/blog/sample.md-4fbdc25f.js",
-    "src": "src/routes/blog/sample.md",
     "isEntry": true,
     "isDynamicEntry": true,
     "imports": [
