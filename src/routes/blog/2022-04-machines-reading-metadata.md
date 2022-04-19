@@ -34,9 +34,7 @@ There are different ways to compute embeddings. Some algorithms (like [LSI](http
 
 The advantage of a pre-trained model is that it already encodes a lot of language context. In simplified terms, BERT can already tell you that a "pair of boots" is closer in meaning to a "pair of sneakers" than a "pair of pants". The terms for "pencil drawing" would have a certain distance from "photograph". But the distance for a "pencil drawing of a person" would be smaller to a "photograph of a person".
 
-Here's an example for how BERT grants us a new perspective on our data. The diagram below visualizes 6.200 records from the Wien Museum. (That's only about 10% of their total collection. But it helps to make the diagram load a bit faster in this blogpost.) Each metadata record from the collection is represented as a point in 3D space<a class="footnote" href="#footnote-1">1</a>. We have colored the dots according to the combination of categories assigned to the metadata record. Which means we'd expect a to see a pattern where dots of similar color should form clusters. And - luckily - that's the case.
-
-The diagram is interactive! Try zooming/panning with mouse or touch, and explore the clusters that have emerged. 
+Here's an example for how BERT grants us a new perspective on our data. The diagram below visualizes 6.200 records from the Wien Museum. (That's only about 10% of their total collection. But it helps to make the diagram load a bit faster in this blogpost.) Each metadata record from the collection is represented as a point in 3D space<a class="footnote" href="#footnote-1">1</a>. We have colored the dots according to the combination of categories assigned to the metadata record. Which means we'd expect a to see a pattern where dots of similar color should form clusters. And - luckily - that's the case. The diagram is interactive! Try zooming/panning with mouse or touch, and explore the clusters that have emerged. 
 
 <iframe 
   src="/embeds/blog/2022-04/embeddings-example.html"
