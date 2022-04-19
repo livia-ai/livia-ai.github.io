@@ -24,7 +24,7 @@ The first step in our journey is therefore to gain an understanding of our partn
 
 Our three partners, the [Belvedere](https://www.belvedere.at/), the [MAK](https://www.mak.at) and the [Wien Museum](https://www.wienmuseum.at/) have given us access to metadata for all artworks they display in their public online collections. In total, that's more than 300.000 objects! The metadata includes a mix of information such as: title and description text, subjects keywords and classification terms, artist names, summary information on provenance or exhibition history, information about material, production, places and time periods relevant to the artwork, etc.
 
-Each partner uses different documentation practices, and has different priorities when describing their artworks. Properties that are recorded in the MAK collection, for example, may not exist (or be relevant!) in the Belvedere collection. Therefore, figuring out which artworks might be similar - according to what the curators tell us about them in the metadata - is not quite straightforward.
+Each partner uses different documentation practices, and has different priorities when describing their artworks. Properties that are recorded in the MAK collection, for example, may not exist (or be relevant!) in the Belvedere collection. Therefore, figuring out which artworks might be similar - according to what the metadata says - is not as straightforward as one might hope.
 
 ## Reading Metadata - From a Distance
 

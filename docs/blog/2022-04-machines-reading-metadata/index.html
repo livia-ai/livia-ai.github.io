@@ -17,13 +17,13 @@
 		<meta http-equiv="content-security-policy" content=""><title>LiviaAI | Machines Reading Metadata</title><meta name="description" content="It&#39;s time for the first update from the tech team! The tech team, that&#39;s us: intern Bernhard, student of Artificial Intelligence at the University of Linz, and me, Rainer, Senior Researcher at the Data Science &amp; Artificial Intelligence group at the Austrian Institute of Technology." data-svelte="svelte-4med8m"><meta name="twitter:title" content="Machines Reading Metadata" data-svelte="svelte-4med8m"><meta name="twitter:description" content="It&#39;s time for the first update from the tech team! The tech team, that&#39;s us: intern Bernhard, student of Artificial Intelligence at the University of Linz, and me, Rainer, Senior Researcher at the Data Science &amp; Artificial Intelligence group at the Austrian Institute of Technology." data-svelte="svelte-4med8m"><meta property="og:title" content="Machines Reading Metadata" data-svelte="svelte-4med8m"><meta property="og:description" content="It&#39;s time for the first update from the tech team! The tech team, that&#39;s us: intern Bernhard, student of Artificial Intelligence at the University of Linz, and me, Rainer, Senior Researcher at the Data Science &amp; Artificial Intelligence group at the Austrian Institute of Technology." data-svelte="svelte-4med8m"><meta property="og:url" content="https://liviaai.at/blog/2022-04-machines-reading-metadata" data-svelte="svelte-4med8m">
 	<link rel="stylesheet" href="/_app/assets/app-ac4388e5.css">
 	<link rel="stylesheet" href="/_app/assets/pages/blog/__layout.svelte-27041123.css">
-	<link rel="modulepreload" href="/_app/start-cab4736e.js">
+	<link rel="modulepreload" href="/_app/start-9c359eb7.js">
 	<link rel="modulepreload" href="/_app/chunks/vendor-b56f9969.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-87d7790d.js">
 	<link rel="modulepreload" href="/_app/pages/blog/__layout.svelte-ee3461bc.js">
-	<link rel="modulepreload" href="/_app/pages/blog/2022-04-machines-reading-metadata.md-6e350a06.js">
+	<link rel="modulepreload" href="/_app/pages/blog/2022-04-machines-reading-metadata.md-2eac2494.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-749b8f63.js"><script type="module">
-		import { start } from "/_app/start-cab4736e.js";
+		import { start } from "/_app/start-9c359eb7.js";
 		start({
 			target: document.querySelector("body"),
 			paths: {"base":"","assets":""},
@@ -37,7 +37,7 @@
 				nodes: [
 					import("/_app/pages/__layout.svelte-87d7790d.js"),
 						import("/_app/pages/blog/__layout.svelte-ee3461bc.js"),
-						import("/_app/pages/blog/2022-04-machines-reading-metadata.md-6e350a06.js")
+						import("/_app/pages/blog/2022-04-machines-reading-metadata.md-2eac2494.js")
 				],
 				url: new URL("http://sveltekit-prerender/blog/2022-04-machines-reading-metadata"),
 				params: {}
@@ -69,7 +69,7 @@
 <h2>Understanding Our Partner Collections</h2>
 <p>The first step in our journey is therefore to gain an understanding of our partner collections. What’s actually inside them? What information have curators added to the items as metadata? And how can we translate all this existing knowledge (and years of work!) into data that can teach computers to recognize similar art?</p>
 <p>Our three partners, the <a href="https://www.belvedere.at/" rel="nofollow">Belvedere</a>, the <a href="https://www.mak.at" rel="nofollow">MAK</a> and the <a href="https://www.wienmuseum.at/" rel="nofollow">Wien Museum</a> have given us access to metadata for all artworks they display in their public online collections. In total, that’s more than 300.000 objects! The metadata includes a mix of information such as: title and description text, subjects keywords and classification terms, artist names, summary information on provenance or exhibition history, information about material, production, places and time periods relevant to the artwork, etc.</p>
-<p>Each partner uses different documentation practices, and has different priorities when describing their artworks. Properties that are recorded in the MAK collection, for example, may not exist (or be relevant!) in the Belvedere collection. Therefore, figuring out which artworks might be similar - according to what the curators tell us about them in the metadata - is not quite straightforward.</p>
+<p>Each partner uses different documentation practices, and has different priorities when describing their artworks. Properties that are recorded in the MAK collection, for example, may not exist (or be relevant!) in the Belvedere collection. Therefore, figuring out which artworks might be similar - according to what the metadata says - is not as straightforward as one might hope.</p>
 <h2>Reading Metadata - From a Distance</h2>
 <p>Luckily, AI can help us here, too. In LiviaAI, we use a technique called <a href="https://en.wikipedia.org/wiki/Sentence_embedding" rel="nofollow">Sentence Embedding</a> to get a better picture of the structure, themes and topics of our collections. Sentence Embedding is a computational method that transforms written text - such as a sentence or a paragraph - to a <em>vector</em>, a numeric representation that we can treat as a point in space. Sentences that share similar semantics will be located nearby in that vector space, which means we can deduct information about the similarity of two texts simply by measuring the distance between their point representations. </p>
 <p>There are different ways to compute embeddings. Some algorithms start from a blank state, with now prior knowledge of language or vocabulary. They take the full dataset as input (say, the fulltext of a novel), and fit the sentence representations so that sentences that use (or are surrounded by) similar vocabulary will end up close together. Other approaches use pre-trained models, which means they will already come pre-loaded with knowledge trained from a large text corpus. In our case, we use <a href="https://en.wikipedia.org/wiki/BERT_(language_model)" rel="nofollow">BERT</a> a large language model developed in 2018 by Google researchers, which was shortly after adapted for the purpose of high-performance <a href="https://arxiv.org/abs/1908.10084" rel="nofollow">sentence embedding</a>. </p>
