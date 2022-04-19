@@ -30,17 +30,27 @@ Each partner uses different documentation practices, and has different prioritie
 
 Luckily, AI can help us here, too. In LiviaAI, we use a technique called [Sentence Embedding](https://en.wikipedia.org/wiki/Sentence_embedding) to get a better picture of the structure, themes and topics of our collections. Sentence Embedding is a computational method that transforms written text - such as a sentence or a paragraph - to a _vector_, a numeric representation that we can treat as a point in space. Sentences that share similar semantics will be located nearby in that vector space, which means we can deduct information about the similarity of two texts simply by measuring the distance between their point representations. 
 
-There are different algorithms for creating embeddings. Some start on a blank canvas, meaning there are no pre-trained assumptions about the data. You hand them your dataset (say, the entire text of a novel), and the algorithm will organize the sentences into the vector space so that sentences that use (or are surrounded by) similar vocabulary are closer together.
+There are different ways to compute embeddings. Some algorithms start from a blank state, with now prior knowledge of language or vocabulary. They take the full dataset as input (say, the fulltext of a novel), and fit the sentence representations so that sentences that use (or are surrounded by) similar vocabulary will end up close together. Other approaches use pre-trained models, which means they will already come pre-loaded with knowledge trained from a large text corpus. In our case, we use [BERT](https://en.wikipedia.org/wiki/BERT_(language_model)) a large language model developed in 2018 by Google researchers, which was shortly after adapted for the purpose of high-performance [sentence embedding](https://arxiv.org/abs/1908.10084). 
 
-Other algorithms come with pre-loaded information. In our case, we use [BERT](https://en.wikipedia.org/wiki/BERT_(language_model)) an AI language model developed in 2018 by Google researchers, which was subsequently adapted for the purpose of high-performance [sentence embedding](https://arxiv.org/abs/1908.10084). The advantage of using a pre-trained language model is that it already carries a large amount of latent knowledge about how words and concepts relate in a language. In simplified terms, the model already encodes the information that a "pair of boots" is closer in meaning to a "pair of sneakers" than  "pair of pants". It would place "drawing" at a certain distance from "photograph". But "drawing of a person" might be closer "photograph of a person" than "drawing" and "photograph" alone.
+The advantage of a pre-trained model is that it already encodes a lot of language context. In simplified terms, BERT can already tell you that a "pair of boots" is closer in meaning to a "pair of sneakers" than a "pair of pants". The terms for "pencil drawing" would have a certain distance from "photograph". But the distance for a "pencil drawing of a person" would be smaller to a "photograph of a person".
 
-The idea of using sentence embeddings to organize our metdata first, and then pick training images from the results, was what triggered us to propose the LiviaAI project in the first place. It was tested successfully [in a different context, and with a slightly different approach by AIT colleague Alexander Schindler and colleagues](https://arxiv.org/pdf/2003.12265.pdf). Which means we... sort of... know it will work. But it all depends significantly on the data - it's level of detail, how much information each individual record contains, whether curators have used free text vs keywords, whether individual records differ sufficiently or whether information is often sparse and formulaic or repetitive, etc.
+Here's an example for how BERT grants us a new perspective on our data. The diagram below visualizes 6.200 records from the Wien Museum. (That's only about 10% of their total collection. But it helps to make the diagram load a bit faster in this blogpost.) Each metadata record from the collection is represented as a point in 3D space<a class="footnote" href="#footnote-1">1</a>. We have colored the dots according to the combination of categories assigned to the metadata record. Which means we'd expect a to see a pattern where dots of similar color should form clusters. And - luckily - that's the case.
+
+The diagram is interactive! Try zooming/panning with mouse or touch, and explore the clusters that have emerged. 
 
 <iframe 
   src="/embeds/blog/2022-04/embeddings-example.html"
   style="width:800px; height:600px;">
 </iframe>
 
-<span class="image-caption">Fig. 2. Sentence embeddings for 6,200 metadata records from the online collection of the Wien Museum, projected to 3 dimensions. Color represents a distinct combination of classifications assigned by the curators.</span>
+<span class="image-caption centered"> Sentence embeddings for 6,200 metadata records from the online collection of the Wien Museum, projected to three dimensions. Color represents a distinct combination of classifications assigned by the curators.</span>
+
+
+The idea of using sentence embeddings to pick training examples for image analysis from the results, was what triggered us to propose the LiviaAI project in the first place. It was tested successfully [in a different context, and with a slightly different approach by AIT colleague Alexander Schindler and colleagues](https://arxiv.org/pdf/2003.12265.pdf). Which means we... sort of... know it will work. But it all depends significantly on the data - it's level of detail, how much information each individual record contains, whether curators have used free text vs keywords, whether individual records differ sufficiently or whether information is often sparse and formulaic or repetitive, etc.
+
+<ol class="footnotes">
+  <li id="footnote-1">For the sake of completeness: sentence embeddings work in higher dimensional space. For example, we are using 50 dimensions to compute our clusters and distances. So, technically, what you see in the diagram are 50-dimensional embeddings, projected to 3 dimensions for the purpose of visualization. For this reason, the 3D visualization isn't always able to correctly capture the cluster pattern.</li>
+</ol>
+
 
 
