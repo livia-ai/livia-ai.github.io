@@ -5,7 +5,7 @@
 </script>
 
 <svelte:head>
-  <title>{title}</title>
+  <title>LiviaAI | {title}</title>
   <meta name="description" content={description} />
   <meta name="twitter:title" content={title} />
   <meta name="twitter:description" content={description} />
