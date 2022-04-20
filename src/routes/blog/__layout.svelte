@@ -15,6 +15,9 @@
   });
 </script>
 
+<svelte:head>
+  <script>if(!sessionStorage.getItem("_swa")&&document.referrer.indexOf(location.protocol+"//"+location.host)!== 0){fetch("https://counter.dev/track?"+new URLSearchParams({referrer:document.referrer,screen:screen.width+"x"+screen.height,user:"rainer@no5.at",utcoffset:"1"}))};sessionStorage.setItem("_swa","1");</script>
+</svelte:head>
 
 <nav id="header" class="fixed w-full z-30 top-0 text-white shadow bg-white">
   <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
