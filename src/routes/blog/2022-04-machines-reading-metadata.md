@@ -48,7 +48,7 @@ We are currently sifting through our data, and are starting to draw samples of "
 For now, the goal is only to prepare enough material for discussion at our upcoming workshop. But our journey is guaranteed to remain exciting!
 
 <ol class="footnotes">
-  <li id="footnote-1">For the sake of completeness: sentence embeddings work in higher dimensional space. For example, we are using 50 dimensions to compute our clusters and distances. So, technically, what you see in the diagram are 50-dimensional embeddings, projected to 3 dimensions for the purpose of visualization. For this reason, the 3D visualization isn't always able to correctly capture the cluster pattern.</li>
+  <li id="footnote-1">For the sake of completeness: sentence embeddings work in higher dimensional space. n our case, for example, we compute our clusters and distances in 50 dimensions. I.e. technically, what you see in the diagram are 50-dimensional embeddings projected to three dimensions for the purpose of visualization. This also means that the 3D visualization isn't always able to capture the true geometry of the cluster patterns.</li>
 </ol>
 
 
