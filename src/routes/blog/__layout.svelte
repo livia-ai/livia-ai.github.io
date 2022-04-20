@@ -80,6 +80,23 @@
   </g>
 </svg>
 
+<footer class="gradient">
+  <div class="container mx-auto px-8 pb-6">
+    <div class="w-full flex flex-col md:flex-row py-6">
+      <div class="flex-1">
+        <ul class="list-reset mb-6">
+          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
+            Funded by<br/>
+            <a href="https://www.oeaw.ac.at/foerderungen/jubilaeumsfonds/1/ausschreibung-2017/1/jubilaeumsfonds-gefoerderte-projekte-2017-1" class="text-white">
+              Jubiläumsfonds der Stadt Wien für die ÖAW
+            </a>
+          </li>
+        </ul>
+      </div>
+    </div>
+  </div>
+</footer>
+
 <style>
   .blogpost {
     min-height:500px;

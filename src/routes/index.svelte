@@ -53,7 +53,7 @@
   });
 </script>
 
-<nav id="header" class="fixed w-full z-30 top-0 text-white">
+<nav id="header" class="transition-all duration-300 fixed w-full z-30 top-0 text-white">
   <div class="w-full container mx-auto flex flex-wrap items-center justify-between mt-0 py-2">
     <div class="pl-4 flex items-center">
       <a class="toggleColour text-white no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
@@ -316,8 +316,8 @@
     </g>
   </g>
 </svg>
+<!--
 <section class="container mx-auto text-center py-6 mb-12">
-  <!--
   <h1 class="w-full my-2 text-5xl font-bold leading-tight text-center text-white">
     Call to Action
   </h1>
@@ -330,31 +330,23 @@
   <button class="mx-auto lg:mx-0 hover:underline bg-white text-gray-800 font-bold rounded-full my-6 py-4 px-8 shadow-lg focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
     Action!
   </button>
-  -->
 </section>
+-->
 <!--Footer-->
-<!-- footer class="bg-white">
-  <div class="container mx-auto px-8">
+<footer class="gradient">
+  <div class="container mx-auto px-8 pb-6">
     <div class="w-full flex flex-col md:flex-row py-6">
-      <div class="flex-1 mb-6 text-black">
-        <a class="text-pink-600 no-underline hover:no-underline font-bold text-2xl lg:text-4xl" href="#">
-          LANDING
-        </a>
-      </div>
       <div class="flex-1">
-        <p class="uppercase text-gray-500 md:mb-6">Links</p>
         <ul class="list-reset mb-6">
           <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">FAQ</a>
-          </li>
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Help</a>
-          </li>
-          <li class="mt-2 inline-block mr-2 md:block md:mr-0">
-            <a href="#" class="no-underline hover:underline text-gray-800 hover:text-pink-500">Support</a>
+            Funded by<br/>
+            <a href="https://www.oeaw.ac.at/foerderungen/jubilaeumsfonds/1/ausschreibung-2017/1/jubilaeumsfonds-gefoerderte-projekte-2017-1" class="text-white">
+              Jubiläumsfonds der Stadt Wien für die ÖAW
+            </a>
           </li>
         </ul>
       </div>
+      <!--
       <div class="flex-1">
         <p class="uppercase text-gray-500 md:mb-6">Legal</p>
         <ul class="list-reset mb-6">
@@ -394,7 +386,7 @@
           </li>
         </ul>
       </div>
+      -->
     </div>
   </div>
-  <a href="https://www.freepik.com/free-photos-vectors/background" class="text-gray-500">Background vector created by freepik - www.freepik.com</a>
-</footer -->
+</footer>
