@@ -17,6 +17,7 @@
   },
   "type": "module",
   "dependencies": {
-    "mdsvex": "^0.10.5"
+    "mdsvex": "^0.10.5",
+    "svelte-icons": "^2.1.0"
   }
 }

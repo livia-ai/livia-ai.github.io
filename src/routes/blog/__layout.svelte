@@ -38,13 +38,13 @@
     <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
       <ul class="list-reset lg:flex justify-end flex-1 items-center">
         <li class="mr-3">
-          <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="/blog/2022-04-hello-world">Blog</a>
+          <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="/blog/2022-04-machines-reading-metadata">Blog</a>
         </li>
       </ul>
       <button
         id="navAction"
-        class="mx-auto lg:mx-0 text-gray-800 font-bold mt-4 lg:mt-0 py-4 px-4 lg:px-8 focus:outline-none focus:shadow-outline">
-        <a href="/">Home</a>
+        class="mx-auto lg:mx-0 hover:underline gradient font-bold lg:rounded-full mt-4 lg:mt-0 py-4 px-4 lg:px-8 lg:shadow opacity-75 focus:outline-none focus:shadow-outline transform transition hover:scale-105 duration-300 ease-in-out">
+        <a href="/" class="text-white">Home</a>
       </button>
     </div>
   </div>

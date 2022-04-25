@@ -1,7 +1,10 @@
 <script>
+  import FaRegClock from 'svelte-icons/fa/FaRegClock.svelte';
+
   export let title;
   export let description;
   export let url;
+  export let date;
 </script>
 
 <svelte:head>
@@ -13,5 +16,10 @@
   <meta property="og:description" content={description} />
   <meta property="og:url" content={url} /> 
 </svelte:head>
+
+<h1>{title}</h1>
+<h2 class="published-at">
+  <FaRegClock /> {date}
+</h2>
 
 <slot />

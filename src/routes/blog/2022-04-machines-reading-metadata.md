@@ -2,9 +2,8 @@
 title: Machines Reading Metadata
 description: "It's time for the first update from the tech team! The tech team, that's us: intern Bernhard, student of Artificial Intelligence at the University of Linz, and me, Rainer, Senior Researcher at the Data Science & Artificial Intelligence group at the Austrian Institute of Technology."
 url: https://liviaai.at/blog/2022-04-machines-reading-metadata
+date: April 26, 2022
 ---
-
-# Machines Reading Metadata
 
 It's time for the first update from the tech team! The tech team, that's us: intern [Bernhard](#), student of Artificial Intelligence at the University of Linz, and me, [Rainer](#), Senior Researcher at the Data Science & Artificial Intelligence group at the Austrian Institute of Technology.
 
@@ -50,6 +49,11 @@ For now, the goal is only to prepare enough material for discussion at our upcom
 <ol class="footnotes">
   <li id="footnote-1">For the sake of completeness: sentence embeddings work in higher dimensional space. In our case, for example, we compute clusters and distances in 50 dimensions. I.e. technically, what you see in the diagram are 50-dimensional embeddings projected to three dimensions for the purpose of visualization. This also means that the 3D visualization is only an approximation and isn't always able to capture the true geometry of the cluster patterns.</li>
 </ol>
+
+<footer>
+  <h4>Previous post</h4> 
+  <a href="/blog/2022-04-hello-world">Hello World!</a>
+</footer>
 
 
 

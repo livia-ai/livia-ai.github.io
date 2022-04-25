@@ -2,9 +2,8 @@
 title: Hello World!
 description: Welcome to the blog for the project Linking Viennese Art through Artificial Intelligence (or, as we like to call it - LiviaAI), a one-year long investigation, funded by the Jubiläumsfond of the City of Vienna/Austrian Academy of Sciences, based at the Universität für Weiterbildung, Krems and in partnership with the Austrian Institute of Technology, the Belvedere Museum Wien, the Museum für Angewandte Kunst and the Wien Museum.
 url: https://liviaai.at/blog/2022-04-hello-world
+date: April 19, 2022
 ---
-
-# Hello World! 
 
 ![Lusthaus im Prater, views from different partner collections](/blog/2022-04-hello-world/lusthaus.jpg)
 
@@ -49,3 +48,8 @@ The LiviaAI team comes from all sorts of backgrounds - we’re a diverse bunch! 
 The project is beginning to gather steam! We have already collected the metadata from our museum partners and harvested most of the available image content, and are now starting to experiment with different metadata clustering approaches in April. (A blog post about our first experiences with Sentence Embedding and similarity is coming soon!)
 
 We are also organising a workshop in early May to meet with the museum partners, share our initial results, and get some ideas from them about how their data is used by researchers and visitors, so that we can plan the next phase of data explorations. We’re planning to share regular updates on our progress at every stage, so keep an eye on things here!
+
+<footer>
+  <h4>Next post</h4> 
+  <a href="/blog/2022-04-machines-reading-metadata">Machines Reading Metadata</a>
+</footer>
