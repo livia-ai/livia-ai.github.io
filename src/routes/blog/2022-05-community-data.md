@@ -4,6 +4,8 @@ description: "In early May we organized an initial workshop for the LiviaAI-Proj
 url: https://liviaai.at/blog/2022-05-CommunityData
 date: May 18, 2022
 ---
+![The workshop participants with view of Vienna](/static/blog/2022-05-community-data/group.jpg)
+
 
 As already described in our [previous posts](/blog/2022-04-hello-world), the LiviaAI-project is all about linking art collections held in three Viennese museums. What we didn’t mention is that the LiviaAI-Project is also about community and capacity building between museum, technology, and university partners.
 
@@ -46,6 +48,9 @@ On a content level, the museum partners really helped us to better understand th
 > Most importantly though, the museum partners helped us to better filter the datasets and improve the parameters we are using to cluster the object data. We now have a much better idea on how to proceed with the project.
 
 Looking back at the workshop I would like to emphasize one last take away: the challenges of digitizing collections while also managing technological advances in a rapidly changing world is not something that can be done alone. Besides, it’s a lot more fun, especially when you find a group of people willing to discuss museums, data, and technology.
+
+![Final wrap-up from the workshop, photo courtesy of Eva Kleinferchner](/static/blog/2022-05-community-data/i_like.jpg)
+
 
 <footer>
   <div class="previous-post">
