@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-e9b0d95c.js",
+    "file": "start-058e3f46.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -12,6 +12,7 @@
       "src/routes/index.svelte",
       "src/routes/blog/__layout.svelte",
       "src/routes/blog/2022-04-machines-reading-metadata.md",
+      "src/routes/blog/2022-05-community-data.md",
       "src/routes/blog/2022-04-hello-world.md"
     ]
   },
@@ -24,7 +25,7 @@
       "_vendor-f435face.js"
     ],
     "css": [
-      "assets/app-79fee008.css"
+      "assets/app-b4fe6dc6.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -37,7 +38,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-0dc2b92b.js",
+    "file": "pages/index.svelte-17b97b59.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -46,7 +47,7 @@
     ]
   },
   "src/routes/blog/__layout.svelte": {
-    "file": "pages/blog/__layout.svelte-737a0409.js",
+    "file": "pages/blog/__layout.svelte-1a889f9f.js",
     "src": "src/routes/blog/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -55,11 +56,11 @@
     ],
     "css": [
       "assets/pages/blog/__layout.svelte-27041123.css",
-      "assets/app-79fee008.css"
+      "assets/app-b4fe6dc6.css"
     ]
   },
   "src/routes/blog/2022-04-machines-reading-metadata.md": {
-    "file": "pages/blog/2022-04-machines-reading-metadata.md-9b773cc5.js",
+    "file": "pages/blog/2022-04-machines-reading-metadata.md-7434b167.js",
     "src": "src/routes/blog/2022-04-machines-reading-metadata.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -68,8 +69,18 @@
       "__post-4f5578a2.js"
     ]
   },
+  "src/routes/blog/2022-05-community-data.md": {
+    "file": "pages/blog/2022-05-community-data.md-96c15855.js",
+    "src": "src/routes/blog/2022-05-community-data.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-f435face.js",
+      "__post-4f5578a2.js"
+    ]
+  },
   "src/routes/blog/2022-04-hello-world.md": {
-    "file": "pages/blog/2022-04-hello-world.md-e8d2a091.js",
+    "file": "pages/blog/2022-04-hello-world.md-54c12792.js",
     "src": "src/routes/blog/2022-04-hello-world.md",
     "isEntry": true,
     "isDynamicEntry": true,
