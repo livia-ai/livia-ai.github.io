@@ -51,8 +51,15 @@ For now, the goal is only to prepare enough material for discussion at our upcom
 </ol>
 
 <footer>
-  <h4>Previous post</h4> 
-  <a href="/blog/2022-04-hello-world">Hello World!</a>
+  <div class="next-post">
+    <h4>Next post</h4> 
+    <a href="/blog/2022-05-community-data">Community and Data - The Kick-Off Workshop</a>
+  </div>
+
+  <div class="previous-post">
+    <h4>Previous post</h4> 
+    <a href="/blog/2022-04-hello-world">Hello World!</a>
+  </div>
 </footer>
 
 

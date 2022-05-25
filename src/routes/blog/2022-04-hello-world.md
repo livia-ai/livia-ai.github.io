@@ -50,6 +50,8 @@ The project is beginning to gather steam! We have already collected the metadata
 We are also organising a workshop in early May to meet with the museum partners, share our initial results, and get some ideas from them about how their data is used by researchers and visitors, so that we can plan the next phase of data explorations. We’re planning to share regular updates on our progress at every stage, so keep an eye on things here!
 
 <footer>
-  <h4>Next post</h4> 
-  <a href="/blog/2022-04-machines-reading-metadata">Machines Reading Metadata</a>
+  <div class="next-post">
+    <h4>Next post</h4> 
+    <a href="/blog/2022-04-machines-reading-metadata">Machines Reading Metadata</a>
+  </div>
 </footer>

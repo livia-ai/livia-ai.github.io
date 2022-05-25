@@ -38,7 +38,7 @@
     <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
       <ul class="list-reset lg:flex justify-end flex-1 items-center">
         <li class="mr-3">
-          <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="/blog/2022-04-machines-reading-metadata">Blog</a>
+          <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="/blog/2022-05-community-data">Blog</a>
         </li>
       </ul>
       <button

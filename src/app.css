@@ -34,6 +34,16 @@ h2 {
   margin:20px 0;
 }
 
+.blogpost ol {
+  padding:0 30px;
+  list-style-type:decimal;
+  margin:20px 0;
+}
+
+.blogpost ol li {
+  padding-left:5px;
+}
+
 .blogpost h1,
 .blogpost h2,
 .blogpost h3 {
@@ -57,6 +67,16 @@ h2 {
   display: inline;
   vertical-align: text-top;
   margin-right: 3px;
+}
+
+.blogpost blockquote {
+  background-color: #d9d9d9;
+  padding: 0 10px;
+  margin: 20px 0;
+  font-family: 'Times New Roman', Times, serif;
+  font-weight: bold;
+  font-style: italic;
+  font-size: 18px;
 }
 
 p {
@@ -106,6 +126,12 @@ a {
   border-top: 1px solid #a2a2a2;
   padding-top: 30px;
   margin-top: 60px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.blogpost footer > div:nth-child(2) {
+  text-align:right;
 }
 
 .blogpost footer h4 {
