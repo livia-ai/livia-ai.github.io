@@ -1,6 +1,6 @@
 ---
 title: "Exploring Similarity: Triplets and How to Choose Them"
-description: "Lorem ipsum"
+description: "Help us understand the quality of our data by participating in a small crowdsourcing experiment."
 url: https://liviaai.at/blog/2022-06-exploring-similarity
 date: June 15, 2022
 ---
