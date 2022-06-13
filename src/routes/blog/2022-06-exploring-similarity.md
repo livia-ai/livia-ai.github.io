@@ -63,6 +63,6 @@ After your vote, a new random triplet will load. Keep going as long as you want 
 <footer>
   <div class="previous-post">
     <h4>Previous post</h4> 
-    <a href="/blog/2022-05-community-data/">Community and Data - The Kick-Off Workshop</a>
+    <a href="/blog/2022-05-community-data/">Community and Data</a>
   </div>
 </footer>
