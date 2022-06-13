@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-355d5d2c.js",
+    "file": "start-1b600018.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -12,6 +12,7 @@
       "src/routes/index.svelte",
       "src/routes/blog/__layout.svelte",
       "src/routes/blog/2022-04-machines-reading-metadata.md",
+      "src/routes/blog/2022-06-exploring-similarity.md",
       "src/routes/blog/2022-05-community-data.md",
       "src/routes/blog/2022-04-hello-world.md"
     ]
@@ -69,8 +70,18 @@
       "__post-4f5578a2.js"
     ]
   },
+  "src/routes/blog/2022-06-exploring-similarity.md": {
+    "file": "pages/blog/2022-06-exploring-similarity.md-6d683e67.js",
+    "src": "src/routes/blog/2022-06-exploring-similarity.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-f435face.js",
+      "__post-4f5578a2.js"
+    ]
+  },
   "src/routes/blog/2022-05-community-data.md": {
-    "file": "pages/blog/2022-05-community-data.md-65e82f66.js",
+    "file": "pages/blog/2022-05-community-data.md-7ffc506c.js",
     "src": "src/routes/blog/2022-05-community-data.md",
     "isEntry": true,
     "isDynamicEntry": true,
