@@ -38,9 +38,9 @@ material.
 
 ## Comparing Approaches
 
-So far, we've built triplets for two different museums (the Belvedere and the Wien Museum), and - as written above - using two different methods: Sentence Embeddings and Graph Embeddings. As a next step, we now want to understand more about the real-world applicability of these two approaches.
+So far, we've built triplets for two different museums (the Belvedere and the Wien Museum), and - as written above - using two different methods: Sentence Embeddings and Graph Embeddings. As a next step, we want to understand more about the real-world applicability of these two approaches.
 
-Both approaches present us with a quantitative measure of similarity that's... technically... accurate: metadata records that include many identical terms, keywords and wording (perhaps with the odd synonym thrown in) _will_ be reliably identified as similar. The real world isn't always that simple, unfortunately. Metadata isn't always rich enough to provide enough material for the algorithm; and curation may not always be consistent, even within the same institution and collection.
+Both approaches present us with a quantitative measure of similarity that's... technically... accurate: metadata records that include many identical terms, keywords and wording (perhaps with the odd synonym thrown in) _will_ be reliably identified as similar. But the real world isn't that simple, of course. Metadata isn't always rich enough to provide enough material for the algorithm (or even humans!) to judge whether two images are similar enough in terms of subject and themes; and curation may not always be consistent, even within the same institution and collection.
 
 That's why we need your help: [...]
 
