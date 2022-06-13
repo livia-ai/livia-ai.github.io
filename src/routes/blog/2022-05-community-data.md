@@ -52,7 +52,6 @@ Looking back at the workshop I would like to emphasize one last take away: the c
 
 ![Final wrap-up from the workshop, photo courtesy of Eva Kleinferchner](/blog/2022-05-community-data/i_like.jpg)
 
-
 <footer>
   <div class="previous-post">
     <h4>Previous post</h4> 
