@@ -42,16 +42,16 @@ So far, we've built triplets for two different museums (the Belvedere and the Wi
 
 Both approaches present us with a quantitative measure of similarity that's... technically... accurate: metadata records that include many identical terms, keywords and wording (perhaps with the odd synonym thrown in) _will_ be reliably identified as similar. But the real world isn't that simple, of course. Metadata isn't always rich enough to provide enough material for the algorithm (or even humans!) to judge whether two images are similar enough in terms of subject and themes; and curation may not always be consistent, even within the same institution and collection.
 
-That's why we need your help: [...]
+__That's why we need your help:__ Below, you see a random triplet. Based on the metdata, our algorithm has selected images A and B as similar; and image C as different. Does the choice make sense? You can vote using the two buttons below. 
+
+Give us a thumbs-up if images A and B show similar motives or themes, and image C is different from A and B. Give us a thumbs-down if there is little similarity between A and B, or C is too similar to A or B.
+
+__We know that ratings are subjective. That's no problem!__ We want to collect as much & as diverse feedback 
+as possible. Don't overthink it. Just focus on image motives and themes, and rate according to your intuition.
 
 <iframe 
   src="https://rate-this-triplet.no5.at/ui/"
   style="width:100%; height:900px; margin:0">
 </iframe>
 
-__Help us improve our data by providing feedback about this triplet.__ A good triplet is one where images 
-A and B show similar motives or themes, and image C is different from A and B. If there is little similarity 
-between A and B, or C is similar to A or B, that's a bad triplet.
 
-__We know that ratings are subjective. That's no problem!__ We want to collect as much & as diverse feedback 
-as possible. Don't overthink it. Just focus on image motives and themes, and rate according to your intuition.
