@@ -58,7 +58,11 @@ After your vote, a new random triplet will load. Keep going as long as you want 
 
 ## What Happens with the Data?
 
-[...]
+First of all: the data we collect is, of course, completely anonymous. All we record is your "Good" or "Bad" rating on each triplet. 
+
+The data we collect will help us, most importantly, to understand whether there is any significant difference between triplets selected using Sentence Embeddings or Graph Embeddings. It will also help us get a better feel for which museum collection "works better", as it were, with the two methods.
+
+If we collect enough feedback (and that's a big if!), we will also be able to train the AI __only__ (or, at least, mainly) with triplets that have been confirmed by a human, which will significantly improve the quality of the model.
 
 <footer>
   <div class="previous-post">
