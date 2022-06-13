@@ -47,7 +47,7 @@ __That's why we need your help:__ Below, you see a random triplet. Based on the 
 Give us a thumbs-up if images A and B show similar motives or themes, and image C is different from A and B. Give us a thumbs-down if there is little similarity between A and B, or C is too similar to A or B.
 
 <iframe 
-  src="https://rate-this-triplet.no5.at/ui/"
+  src="https://rate-this-triplet.no5.at/embed.html"
   style="width:100%; height:700px; margin:0">
 </iframe>
 
