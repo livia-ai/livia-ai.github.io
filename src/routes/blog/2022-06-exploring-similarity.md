@@ -54,4 +54,8 @@ as possible. Don't overthink it. Just focus on image motives and themes, and rat
   style="width:100%; height:900px; margin:0">
 </iframe>
 
+After your vote, a new random triplet will load. Keep going as long as you want - the more data we collect, the better. You can also skip a triplet by clicking the "Skip this Triplet" link. Please do this only in cases where you really (really!) cannot decide, or if there's a problem loading a particular triplet. When in doubt, your gut feeling helps us more than no vote at all.
 
+## What Happens with the Data?
+
+[...]
