@@ -46,13 +46,13 @@ __That's why we need your help:__ Below, you see a random triplet. Based on the 
 
 Give us a thumbs-up if images A and B show similar motives or themes, and image C is different from A and B. Give us a thumbs-down if there is little similarity between A and B, or C is too similar to A or B.
 
-__We know that ratings are subjective. That's no problem!__ We want to collect as much & as diverse feedback 
-as possible. Don't overthink it. Just focus on image motives and themes, and rate according to your intuition.
-
 <iframe 
   src="https://rate-this-triplet.no5.at/ui/"
   style="width:100%; height:700px; margin:0">
 </iframe>
+
+__We know that ratings are subjective. That's no problem!__ We want to collect as much & as diverse feedback 
+as possible. Don't overthink it. Just focus on image motives and themes, and rate according to your intuition.
 
 After your vote, a new random triplet will load. Keep going as long as you want - the more data we collect, the better. You can also skip a triplet by clicking the "Skip this Triplet" link. Please do this only in cases where you really (really!) cannot decide, or if there's a problem loading a particular triplet. When in doubt, your gut feeling helps us more than no vote at all.
 
