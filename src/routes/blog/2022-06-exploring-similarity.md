@@ -62,6 +62,8 @@ First of all: the data we collect is, of course, completely anonymous. All we re
 
 If we collect enough feedback (and that's a big if!), we will also be able to train the AI __only__ (or, at least, mainly) with triplets that have been confirmed by a human, which will significantly improve the quality of the model.
 
+__You can also access the rating app without the blog post here: [https://rate-this-triplet.no5.at](https://rate-this-triplet.no5.at)__
+
 <footer>
   <div class="previous-post">
     <h4>Previous post</h4> 
