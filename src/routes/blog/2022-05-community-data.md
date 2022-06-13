@@ -1,7 +1,7 @@
 ---
 title: Community and Data - The Kick-Off Workshop
 description: "In early May we organized an initial workshop for the LiviaAI-Project focused on bringing together our museum partners and opening up our first results for discussion with our collaborators. "
-url: https://liviaai.at/blog/2022-05-CommunityData
+url: https://liviaai.at/blog/2022-05-community-data
 date: May 18, 2022
 ---
 
