@@ -64,7 +64,7 @@ as possible. If you feel unsure about the process, we recommend:
 </iframe>
 
 
-After your vote, a new random triplet will load. Keep going as long as you want - the more data we collect, the better. You can also skip a triplet by clicking the "Skip this Triplet" link. Please do this only in cases where you really (really!) cannot decide, or if there's a problem loading a particular triplet. When in doubt, your gut feeling helps us more than no vote at all.
+After your vote, a new random triplet will load. Keep going as long as you want - the more data we collect, the better. If you need to skip a triplet, click the "Skip this Triplet" link. But please do this only in cases where you really (really!) cannot decide, or if there's a problem loading a particular triplet. When in doubt, your gut feeling helps us more than no vote at all.
 
 ## What Happens with the Data?
 
