@@ -30,17 +30,16 @@ This outcome doesn't exactly make our lives easier - after all, connecting colle
 goals](/blog/2022-04-hello-world). But it isn't entirely unexpected either. In fact, we had expected that metadata alone
 would be insufficent to connect across collections. Which is why we proposed this project in the first place!
 
-The goal of LiviaAI is to teach computers how to recognize similar _images_, rather than similar _metadata_. To do this, we need to provide examples: the AI needs to see (lots of!) pairs of images that are __similar__ to each other, but also images that are __different__ to that pair.
-
-It is important to understand that the method we use to _select_ those examples is still based on the metadata: similar metadata means we'll show it to the AI as an example of similar images. But ultimately, the AI is supposed to learn what this similarity __looks like__, without looking at the metadata. And that, in turn, means it will have much less problems dealing with mixed content from different collections.  
+The goal of LiviaAI is to teach computers how to recognize similar __images__, rather than similar __metadata__. To do this, we need to provide examples: the AI needs to see (lots of!) pairs of images that are similar to each other, but also images that are different, so that it learns what similarity looks like, __without depending on the metadata__.
 
 ## Triplets
 
-In AI terminology, a group of three images, where the first two are an example of similar images, and the third one is an example of a different image, is called a __triplet__. Good triplets will produce an AI model that can measure similarity in a useful way, thus allowing us to identify related images between collections, no matter which collection they come from. To summarize our workflow:
+In AI terminology, a group of three images, where the first two are an example of similar images, and the third one is an example of a different image, is called a __triplet__. Good triplets will produce an AI model that can measure similarity in a useful way, allowing us to identify related images, no matter which collection they come from. To summarize our workflow:
 
 - First, we compile lots of triplets, i.e. examples of images that are __similar__, and images that are __different__ in terms of theme and subject.
-- We feed the triplets into the AI, so it learns to "understand" what similarity looks like in the images.
-- In order to get our examples, we rely on the metadata: because similar subject and themes are described in similar terms __within one museum collection__, records with high metadata similarity should provide us with good image training material.
+- We feed the triplets into the AI, so it learns to "understand" what similarity looks like.
+
+It is important to understand that the method we use to __select__ our triplets is still based on the metadata: similar metadata means we'll show it to the AI as an example of similar images; and because similar subject and themes are described in similar terms __within one museum collection__, this approach is sensible. But ultimately, the AI is supposed to learn the __visual representation__ of similarity. And that, in turn, means it will have much less problems dealing with mixed content from different collections.  
 
 ## Comparing Approaches
 
