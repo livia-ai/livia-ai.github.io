@@ -56,7 +56,7 @@ as possible. If you feel unsure about the process, we recommend:
 * Don't overthink it.
 * Focus on image motives and themes, ignore the medium (e.g. painting, sculpture,...)
 * Trust your instincts and rate according to your first impression.
-* If a triple is confusing, this is likely due to ambiguous keywords. Simply skip the triplet.
+* If a triplet looks confusing, this is likely due to ambiguous keywords. In this case, you can simply skip it.
 
 <iframe 
   src="https://rate-this-triplet.no5.at/embed.html"
