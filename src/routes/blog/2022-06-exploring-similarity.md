@@ -19,7 +19,12 @@ were:
    machine learning technology called [Graph Embedding](https://towardsdatascience.com/overview-of-deep-learning-on-graph-embeddings-4305c10ad4a4).
 
 Another important outcome of our first experiments - which the workshop confirmed - were that the similarity scores we
-had computed did not work well __when combining data from multiple museums__. This may be because the vocabularies and curating practices differ; or because the collections are inherently too different in terms of their materials.
+had computed did not work well __when combining data from multiple museums__, and that records remained fairly separated from each other (see image below). This may be because the vocabularies and curating practices differ; or because the collections are inherently too different in terms of their materials.
+
+<div style="display:flex; justify-content:center">
+  <img src="/blog/2022-06-exploring-similarity/3d_sentence_embeddings_all.png" alt="3D scatterplot of metadata sentence embedding vectors for all museums combined" />
+</div>
+<div style="width:100%" class="image-caption centered">Sentence embeddings vectors for metadata from all museums combined: MAK (blue), Wien Museum (red), Belvedere (green).</div>
 
 This outcome doesn't exactly make our lives easier - after all, connecting collections is [one of LiviaAI's three main 
 goals](/blog/2022-04-hello-world). But it isn't entirely unexpected either. In fact, we had expected that metadata alone
