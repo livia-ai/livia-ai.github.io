@@ -43,9 +43,9 @@ It is important to understand that the method we use to __select__ our triplets 
 
 ## Comparing Approaches
 
-So far, we've built triplets for two different museums (the Belvedere and the Wien Museum), and - as written above - using two different methods: Sentence Embeddings and Graph Embeddings. As a next step, we want to understand more about the real-world applicability of these two approaches.
+So far, we've built triplets for two different museums (the Belvedere and the Wien Museum), and - as written above - using two different methods: Sentence Embeddings and Graph Embeddings. As a next step, we want to understand more about the real-world applicability of both approaches.
 
-Both approaches present us with a quantitative measure of similarity that's... technically... accurate: metadata records that include many identical terms, keywords and wording (perhaps with the odd synonym thrown in) _will_ be reliably identified as similar. But the real world isn't that simple, of course. Metadata isn't always rich enough to provide enough material for the algorithm (or even humans!) to judge whether two images are similar enough in terms of subject and themes; and curation may not always be consistent, even within the same institution and collection.
+Each approach presents us with a quantitative measure of similarity that's... technically... accurate: metadata records that include many identical terms, keywords and wording (perhaps with the odd synonym thrown in) will be reliably identified as similar. But the real world isn't that simple, of course. Metadata isn't always rich enough to provide enough material for the algorithm (or even humans!) to judge whether two images are similar enough in terms of subject and themes; and curation may not always be consistent, even within the same institution and collection.
 
 __That's why we need your help:__ Below, you see a random triplet. Based on the metdata, our algorithm has selected images A and B as similar; and image C as different. Does the choice make sense? You can vote using the two buttons below. 
 
