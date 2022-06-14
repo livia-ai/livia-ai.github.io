@@ -18,13 +18,13 @@
 	<link rel="stylesheet" href="/_app/assets/vendor-86f8c920.css">
 	<link rel="stylesheet" href="/_app/assets/app-b4fe6dc6.css">
 	<link rel="stylesheet" href="/_app/assets/pages/blog/__layout.svelte-27041123.css">
-	<link rel="modulepreload" href="/_app/start-f30a66af.js">
+	<link rel="modulepreload" href="/_app/start-1fa4e38b.js">
 	<link rel="modulepreload" href="/_app/chunks/vendor-f435face.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-c65b2343.js">
 	<link rel="modulepreload" href="/_app/pages/blog/__layout.svelte-1a889f9f.js">
-	<link rel="modulepreload" href="/_app/pages/blog/2022-06-exploring-similarity.md-d5e94a64.js">
+	<link rel="modulepreload" href="/_app/pages/blog/2022-06-exploring-similarity.md-0d27572b.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-4f5578a2.js"><script type="module">
-		import { start } from "/_app/start-f30a66af.js";
+		import { start } from "/_app/start-1fa4e38b.js";
 		start({
 			target: document.querySelector("body"),
 			paths: {"base":"","assets":""},
@@ -38,7 +38,7 @@
 				nodes: [
 					import("/_app/pages/__layout.svelte-c65b2343.js"),
 						import("/_app/pages/blog/__layout.svelte-1a889f9f.js"),
-						import("/_app/pages/blog/2022-06-exploring-similarity.md-d5e94a64.js")
+						import("/_app/pages/blog/2022-06-exploring-similarity.md-0d27572b.js")
 				],
 				url: new URL("http://sveltekit-prerender/blog/2022-06-exploring-similarity"),
 				params: {}
@@ -67,38 +67,42 @@
 <h1>Exploring Similarity: Triplets and How to Choose Them</h1>
 <h2 class="published-at"><svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" class="svelte-c8tyih"><path d="M256 8C119 8 8 119 8 256s111 248 248 248 248-111 248-248S393 8 256 8zm0 448c-110.5 0-200-89.5-200-200S145.5 56 256 56s200 89.5 200 200-89.5 200-200 200zm61.8-104.4l-84.9-61.7c-3.1-2.3-4.9-5.9-4.9-9.7V116c0-6.6 5.4-12 12-12h32c6.6 0 12 5.4 12 12v141.7l66.8 48.6c5.4 3.9 6.5 11.4 2.6 16.8L334.6 349c-3.9 5.3-11.4 6.5-16.8 2.6z"></path></svg> June 15, 2022</h2>
 
-<p>Following <a href="/blog/2022-05-community-data">our partner workshop in May</a>, we have started to re-assess our
+<p>Following <a href="/blog/2022-05-community-data">our partner workshop in May</a>, we started to re-assess our
 technical processes based on the feedback we received. Two take-away points from the workshop
 were:</p>
-<ol><li><p>When measuring similarity of metadata records, we should focus <strong>only</strong> on those metadata fields that concern
+<ol><li><p>When measuring similarity of metadata records, we should focus only on the metadata fields that concern
 <strong>subject</strong> and <strong>theme</strong>. This lead us to exclude some fields from our Sentence Embedding workflow (read about
 it <a href="/blog/2022-04-machines-reading-metadata">in our earlier blogpost here</a>), in particular those related to
 style, collection, and artist.</p></li>
 <li><p>We should consider measuring similarity based <strong>exclusively</strong> on the curator-assigned subject tags, even if
 other free-text fields (specifically, title and description) exist. This lead us to experiment with an alternative
-machine learning technology called <a href="https://towardsdatascience.com/overview-of-deep-learning-on-graph-embeddings-4305c10ad4a4" rel="nofollow">Graph Embedding</a>.</p></li></ol>
-<p>Another important outcome of our first experiments - which the workshop confirmed - were that the similarity scores we
-had computed did not work well <strong>when combining data from multiple museums</strong>, and that records remained fairly separated from each other (see image below). This may be because the vocabularies and curating practices differ; or because the collections are inherently too different in terms of their materials.</p>
-<div style="display:flex; justify-content:center"><img src="/blog/2022-06-exploring-similarity/3d_sentence_embeddings_all.png" alt="3D scatterplot of metadata sentence embedding vectors for all museums combined"></div>
+machine learning technology referred to as <a href="https://towardsdatascience.com/overview-of-deep-learning-on-graph-embeddings-4305c10ad4a4" rel="nofollow">Graph Embedding</a>.</p></li></ol>
+<p>Another important outcome from our first experiments - which the workshop confirmed - was that the similarity scores we
+had computed did not work well <strong>when combining data from multiple museums</strong>. As the image below illustrates, each museum’s records remain fairly separated from each other. This may be because vocabularies and curating practices differ too much; or, simply, because the collections are inherently too different in terms of their content.</p>
+<div style="display:flex; justify-content:center; padding-top:30px;"><img src="/blog/2022-06-exploring-similarity/3d_sentence_embeddings_all.png" alt="3D scatterplot of metadata sentence embedding vectors for all museums combined"></div>
 <div style="width:100%" class="image-caption centered">Sentence embeddings vectors for metadata from all museums combined: MAK (blue), Wien Museum (red), Belvedere (green).</div>
 <p>This outcome doesn’t exactly make our lives easier - after all, connecting collections is <a href="/blog/2022-04-hello-world">one of LiviaAI’s three main
 goals</a>. But it isn’t entirely unexpected either. In fact, we had expected that metadata alone
-would be insufficent to connect across collections. Which is why we proposed the this project in the first place! Our goal is to, first, select artworks with <strong>similar metadata from one collection</strong>, and then use <strong>their images as input</strong> to train an AI model to recognize the similarity in the images.</p>
+would be insufficent to connect across collections. Which is why we proposed this project in the first place!</p>
 <h2>Triplets</h2>
-<p>In practice, however, we need more than just pairs of similar images. In order to learn visual similarity, the AI also needs to see examples of images that are <strong>different</strong> from each other. In AI terminology, a group of three images, where the first two are an example of similar images, and the third one is an example of a different image, is called a <strong>triplet</strong>.</p>
-<p>Good triplets will produce an AI model that can measure similarity in a useful way, thus allowing us to identify related images between collections, regardless of their metadata is being recorded in different institutions. To summarize our workflow:</p>
+<p>The goal of LiviaAI is to teach computers how to recognize similar <em>images</em>, rather than similar <em>metadata</em>. To do this, we need to provide examples: the AI needs to see (lots of!) pairs of images that are <strong>similar</strong> to each other, but also images that are <strong>different</strong>.</p>
+<p>It is important to understand that the method we use to select those examples is based on the metadata. Similar metadata means we’ll show the images to the AI as examples of similar images. Therefore, in a sense, there’s bit of circular dependency here. But ultimately, the goal is that the AI will figure out what similarity <strong>looks like</strong>, without depending on the metadata any more.</p>
+<p>In AI terminology, a group of three images, where the first two are an example of similar images, and the third one is an example of a different image, is called a <strong>triplet</strong>. Good triplets will produce an AI model that can measure similarity in a useful way, thus allowing us to identify related images between collections, regardless of the way their metadata is being recorded in different institutions. To summarize our workflow:</p>
 <ul><li>First, we compile lots of triplets, i.e. examples of images that are <strong>similar</strong>, and images that are <strong>different</strong> in terms of theme and subject.</li>
 <li>We feed the triplets into the AI, so it learns to “understand” what similarity looks like in the images.</li>
-<li>In order to get our examples, we rely on the metadata: because similar subject and themes are described in similar terms <strong>within one museum collection</strong>, records with high metadata similarity should provide us with good image training
-material.</li></ul>
+<li>In order to get our examples, we rely on the metadata: because similar subject and themes are described in similar terms <strong>within one museum collection</strong>, records with high metadata similarity should provide us with good image training material.</li></ul>
 <h2>Comparing Approaches</h2>
 <p>So far, we’ve built triplets for two different museums (the Belvedere and the Wien Museum), and - as written above - using two different methods: Sentence Embeddings and Graph Embeddings. As a next step, we want to understand more about the real-world applicability of these two approaches.</p>
 <p>Both approaches present us with a quantitative measure of similarity that’s… technically… accurate: metadata records that include many identical terms, keywords and wording (perhaps with the odd synonym thrown in) <em>will</em> be reliably identified as similar. But the real world isn’t that simple, of course. Metadata isn’t always rich enough to provide enough material for the algorithm (or even humans!) to judge whether two images are similar enough in terms of subject and themes; and curation may not always be consistent, even within the same institution and collection.</p>
 <p><strong>That’s why we need your help:</strong> Below, you see a random triplet. Based on the metdata, our algorithm has selected images A and B as similar; and image C as different. Does the choice make sense? You can vote using the two buttons below. </p>
 <p>Give us a thumbs-up if images A and B show similar motives or themes, and image C is different from A and B. Give us a thumbs-down if there is little similarity between A and B, or C is too similar to A or B.</p>
-<iframe src="https://rate-this-triplet.no5.at/embed.html" style="width:100%; height:700px; margin:0"></iframe>
 <p><strong>We know that ratings are subjective. That’s no problem!</strong> We want to collect as much &amp; as diverse feedback
-as possible. Don’t overthink it. Just focus on image motives and themes, and rate according to your intuition.</p>
+as possible. If you feel unsure about the process, we recommend:</p>
+<ul><li>Don’t overthink it.</li>
+<li>Focus on image motives and themes, ignore the medium (e.g. painting, sculpture,…)</li>
+<li>Trust your instincts and rate according to your first impression.</li>
+<li>If a triple is confusing, this is likely due to ambiguous keywords. Simply skip the triplet.</li></ul>
+<iframe src="https://rate-this-triplet.no5.at/embed.html" style="width:100%; height:700px; margin:0"></iframe>
 <p>After your vote, a new random triplet will load. Keep going as long as you want - the more data we collect, the better. You can also skip a triplet by clicking the “Skip this Triplet” link. Please do this only in cases where you really (really!) cannot decide, or if there’s a problem loading a particular triplet. When in doubt, your gut feeling helps us more than no vote at all.</p>
 <h2>What Happens with the Data?</h2>
 <p>First of all: the data we collect is, of course, completely anonymous. All we record is your “Good” or “Bad” rating on each triplet. The data we collect will help us, most importantly, to understand whether there is any significant difference between triplets selected using Sentence Embeddings or Graph Embeddings. It will also help us get a better feel for which museum collection “works better”, as it were, with the two methods.</p>

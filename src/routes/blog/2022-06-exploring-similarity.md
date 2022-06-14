@@ -9,7 +9,7 @@ Following [our partner workshop in May](/blog/2022-05-community-data), we starte
 technical processes based on the feedback we received. Two take-away points from the workshop 
 were:
 
-1. When measuring similarity of metadata records, we should focus __only__ on the metadata fields that concern
+1. When measuring similarity of metadata records, we should focus only on the metadata fields that concern
    __subject__ and __theme__. This lead us to exclude some fields from our Sentence Embedding workflow (read about
    it [in our earlier blogpost here](/blog/2022-04-machines-reading-metadata)), in particular those related to
    style, collection, and artist.
@@ -18,23 +18,25 @@ were:
    other free-text fields (specifically, title and description) exist. This lead us to experiment with an alternative
    machine learning technology referred to as [Graph Embedding](https://towardsdatascience.com/overview-of-deep-learning-on-graph-embeddings-4305c10ad4a4).
 
-Another important outcome of our first experiments - which the workshop confirmed - were that the similarity scores we
-had computed did not work well __when combining data from multiple museums__, and that records remained fairly separated from each other (see image below, the colors represent the collections of the three museums). This may be because the vocabularies and curating practices differ; or because the collections are inherently too different in terms of their collections.
+Another important outcome from our first experiments - which the workshop confirmed - was that the similarity scores we
+had computed did not work well __when combining data from multiple museums__. As the image below illustrates, each museum's records remain fairly separated from each other. This may be because vocabularies and curating practices differ too much; or, simply, because the collections are inherently too different in terms of their content.
 
-<div style="display:flex; justify-content:center">
+<div style="display:flex; justify-content:center; padding-top:30px;">
   <img src="/blog/2022-06-exploring-similarity/3d_sentence_embeddings_all.png" alt="3D scatterplot of metadata sentence embedding vectors for all museums combined" />
 </div>
 <div style="width:100%" class="image-caption centered">Sentence embeddings vectors for metadata from all museums combined: MAK (blue), Wien Museum (red), Belvedere (green).</div>
 
 This outcome doesn't exactly make our lives easier - after all, connecting collections is [one of LiviaAI's three main 
 goals](/blog/2022-04-hello-world). But it isn't entirely unexpected either. In fact, we had expected that metadata alone
-would be insufficent to connect across collections. Which is why we proposed this project in the first place! Our goal is to, first, select artworks with __similar metadata from one collection__, and then use __their images as input__ to train an AI model to recognize the similarity in the images. [- this last sentence overwhelms me a bit, do we need it?]
+would be insufficent to connect across collections. Which is why we proposed this project in the first place!
 
 ## Triplets
 
-In practice, however, we need more than just pairs of similar images. In order to learn visual similarity, the AI also needs to see examples of images that are __different__ from each other. In AI terminology, a group of three images, where the first two are an example of similar images, and the third one is an example of a different image, is called a __triplet__.
+The goal of LiviaAI is to teach computers how to recognize similar _images_, rather than similar _metadata_. To do this, we need to provide examples: the AI needs to see (lots of!) pairs of images that are __similar__ to each other, but also images that are __different__.
 
-Good triplets will produce an AI model that can measure similarity in a useful way, thus allowing us to identify related images between collections, regardless of the way their metadata is being recorded in different institutions. To summarize our workflow:
+It is important to understand that the method we use to select those examples is based on the metadata. Similar metadata means we'll show the images to the AI as examples of similar images. Therefore, in a sense, there's bit of circular dependency here. But ultimately, the goal is that the AI will figure out what similarity __looks like__, without depending on the metadata any more.
+
+In AI terminology, a group of three images, where the first two are an example of similar images, and the third one is an example of a different image, is called a __triplet__. Good triplets will produce an AI model that can measure similarity in a useful way, thus allowing us to identify related images between collections, regardless of the way their metadata is being recorded in different institutions. To summarize our workflow:
 
 - First, we compile lots of triplets, i.e. examples of images that are __similar__, and images that are __different__ in terms of theme and subject.
 - We feed the triplets into the AI, so it learns to "understand" what similarity looks like in the images.
