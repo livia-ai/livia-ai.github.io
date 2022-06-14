@@ -34,7 +34,7 @@ The goal of LiviaAI is to teach computers how to recognize similar __images__, r
 
 ## Triplets
 
-In AI terminology, a group of three images, where the first two are an example of similar images, and the third one is an example of a different image, is called a __triplet__. Good triplets will produce an AI model that can measure similarity in a useful way, allowing us to identify related images, no matter which collection they come from. To summarize our workflow:
+In AI terminology, a group of three images, where the first two are examples of similar images, and the third one is an example of a different image, is called a __triplet__. Good triplets will produce an AI model that can measure similarity in a useful way, allowing us to identify related images, no matter which collection they come from. To summarize our workflow:
 
 - First, we compile lots of triplets, i.e. examples of images that are __similar__, and images that are __different__ in terms of theme and subject.
 - We feed the triplets into the AI, so it learns to "understand" what similarity looks like.
