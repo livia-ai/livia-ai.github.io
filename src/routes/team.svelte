@@ -108,7 +108,6 @@
         Her research (funded by the Marie Sklodowska Curie Actions COFUND/REWIRE initiative) is focussed 
         on the use of Linked Open Data for museum collections, and the implications of using abstracted 
         data models for heritage data. In LiviaAI, she has been working on documenting the process of the project.
-        in 
       </p>
     </div>
   </div>
@@ -152,10 +151,3 @@
     </div>
   </div>
 </footer>
-
-<style>
-  .blogpost {
-    min-height:500px;
-    padding:60px 0 30px 0;
-  }
-</style>
