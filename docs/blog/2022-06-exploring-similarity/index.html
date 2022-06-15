@@ -18,13 +18,13 @@
 	<link rel="stylesheet" href="/_app/assets/vendor-86f8c920.css">
 	<link rel="stylesheet" href="/_app/assets/app-94f322d5.css">
 	<link rel="stylesheet" href="/_app/assets/pages/blog/__layout.svelte-27041123.css">
-	<link rel="modulepreload" href="/_app/start-da95662c.js">
+	<link rel="modulepreload" href="/_app/start-992d2e81.js">
 	<link rel="modulepreload" href="/_app/chunks/vendor-f435face.js">
 	<link rel="modulepreload" href="/_app/pages/__layout.svelte-c65b2343.js">
 	<link rel="modulepreload" href="/_app/pages/blog/__layout.svelte-228bd32a.js">
-	<link rel="modulepreload" href="/_app/pages/blog/2022-06-exploring-similarity.md-09c17f0a.js">
+	<link rel="modulepreload" href="/_app/pages/blog/2022-06-exploring-similarity.md-f1be1bcd.js">
 	<link rel="modulepreload" href="/_app/chunks/_post-4f5578a2.js"><script type="module">
-		import { start } from "/_app/start-da95662c.js";
+		import { start } from "/_app/start-992d2e81.js";
 		start({
 			target: document.querySelector("body"),
 			paths: {"base":"","assets":""},
@@ -38,7 +38,7 @@
 				nodes: [
 					import("/_app/pages/__layout.svelte-c65b2343.js"),
 						import("/_app/pages/blog/__layout.svelte-228bd32a.js"),
-						import("/_app/pages/blog/2022-06-exploring-similarity.md-09c17f0a.js")
+						import("/_app/pages/blog/2022-06-exploring-similarity.md-f1be1bcd.js")
 				],
 				url: new URL("http://sveltekit-prerender/blog/2022-06-exploring-similarity"),
 				params: {}
@@ -95,7 +95,8 @@ would be insufficent to connect across collections. Which is why we proposed thi
 <p>So far, we’ve built triplets for two different museums (the Belvedere and the Wien Museum), and - as written above - using two different methods: Sentence Embeddings and Graph Embeddings. As a next step, we want to understand more about the real-world applicability of both approaches.</p>
 <p>Each approach presents us with a quantitative measure of similarity that’s… technically… accurate: metadata records that include many identical terms, keywords and wording (perhaps with the odd synonym thrown in) will be reliably identified as similar. But the real world isn’t that simple, of course. Metadata isn’t always rich enough to provide enough material for the algorithm (or even humans!) to judge whether two images are similar enough in terms of subject and themes; and curation may not always be consistent, even within the same institution and collection.</p>
 <p><strong>That’s why we need your help:</strong> Below, you see a random triplet. Based on the metdata, our algorithm has selected images A and B as similar; and image C as different. Does the choice make sense? You can vote using the two buttons below. </p>
-<p>Give us a thumbs-up if images A and B show similar motives or themes, and image C is different from A and B. Give us a thumbs-down if there is little similarity between A and B, or C is too similar to A or B.</p>
+<p>Give us a thumbs-up if images A and B show similar motives or themes, and image C is different from A and B. Give us a thumbs-down if there is little similarity between A and B, or C is too similar to A or B.
+Remember: what the computer thinks is a <strong>good</strong> triplet and what a person might think are a <strong>good</strong> triplet may be quite divergent, which is exactly why we need to the human input (ie: your help). A human-made judgement on similarity and difference (whether the person doing the evaluation has professional art historical training or not) will always be valuable. If we manage to get enough ratings, the disagreements will also certainly help us to spot difficult cases. It’s also worth bearing in mind that sometimes it is easier to judge what makes a <strong>bad</strong> triplet, than what makes a good one. Trust your instincts!</p>
 <p><strong>We know that ratings are subjective. That’s no problem!</strong> We want to collect as much &amp; as diverse feedback
 as possible. If you feel unsure about the process, we recommend:</p>
 <ul><li>Don’t overthink it.</li>
