@@ -1,7 +1,7 @@
 <script>
   import { onMount } from 'svelte';
 
-  import "../../app.css";
+  import "../app.css";
 
   onMount(async () => {  
     var navcontent = document.getElementById("nav-content");
@@ -57,9 +57,58 @@
 <section class="bg-white py-8">
   <div class="container max-w-5xl mx-auto m-8 blogpost">
     <div class="w-6/6 sm:w-2/2 p-6 text-gray-600">
+      <h1>The LiviaAI Team</h1>
 
-      <slot />
+      <h2>Principal Investigators</h2>
 
+      <h3>Dr Nicole High-Steskal</h3>
+      <p>
+        Nicole High-Steskal is an archaeologist and art historian by training, and is a Research Associate in the 
+        Department for Arts and Cultural Studies at the University for Continuing Education, Krems, where she 
+        is the course director for MA-program “Collections Studies and Management”. Her particular interests are 
+        in the topics of geo-spatial humanities, object histories, collection studies, research data management 
+        and Linked Open Data.
+      </p>
+
+      <p>
+        In the LiviaAI-project she and Michaela Feurstein-Prasser are working on the digitization history of the 
+        different collections to better understand biases. Nicole is also responsible for the project management 
+        and communication with partners.
+      </p>
+
+      <h3>Dr Rainer Simon</h3>
+      <p>
+        Rainer Simon is a Senior Scientist at the Austrian Institute of Technology. He has worked in the field of
+        multimedia information management and retrieval for more than 15 years, with a particular focus on technologies
+        and user interfaces that process and visualize geospatial information. His current research interest is in 
+        the application of Linked Open Data methods and visualization techniques in the Digital Humanities. 
+      </p>
+
+      <h2>Project Team</h2>
+
+      <h3>Dr Michaela Feurstein-Prasser</h3>
+      <p>
+        Michaela Feurstein-Prasser is a freelance curator and cultural mediator, based in Vienna. She has worked 
+        on projects in several Viennese museums, including the Jewish Museum and the Volkskundemuseum. She is 
+        also part of the team at xhibit, a research and exhibition consultancy who specialise in creating work
+        which reveals the stories behind museum objects. 
+      </p>
+
+      <h3>Bernhard Franzl</h3>
+      <p>
+        Bernhard Franzl is a student of Artificial Intelligence at the University of Linz, and an intern at 
+        the Austrian institute of Technology. 
+      </p>
+
+      <h2>Project Consultant</h2>
+
+      <h3>Dr Rebecca Kahn</h3>
+      <p>
+        Rebecca Kahn is a post-doctoral researcher in the History Department at the University of Vienna. 
+        Her research (funded by the Marie Sklodowska Curie Actions COFUND/REWIRE initiative) is focussed 
+        on the use of Linked Open Data for museum collections, and the implications of using abstracted 
+        data models for heritage data. 
+      </p>
     </div>
   </div>
 </section>
