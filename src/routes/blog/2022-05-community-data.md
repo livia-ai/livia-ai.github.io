@@ -53,8 +53,13 @@ Looking back at the workshop I would like to emphasize one last take away: the c
 ![Final wrap-up from the workshop, photo courtesy of Eva Kleinferchner](/blog/2022-05-community-data/i_like.jpg)
 
 <footer>
+  <div class="next-post">
+    <h4>Next post</h4> 
+    <a href="/blog/2022-06-exploring-similarity/">Exploring Similarity</a>
+  </div>
+
   <div class="previous-post">
     <h4>Previous post</h4> 
-    <a href="/blog/2022-04-machines-reading-metadata">Machines Reading Metadata</a>
+    <a href="/blog/2022-04-machines-reading-metadata/">Machines Reading Metadata</a>
   </div>
 </footer>
