@@ -50,6 +50,7 @@ Each approach presents us with a quantitative measure of similarity that's... te
 __That's why we need your help:__ Below, you see a random triplet. Based on the metdata, our algorithm has selected images A and B as similar; and image C as different. Does the choice make sense? You can vote using the two buttons below. 
 
 Give us a thumbs-up if images A and B show similar motives or themes, and image C is different from A and B. Give us a thumbs-down if there is little similarity between A and B, or C is too similar to A or B.
+
 Remember: what the computer thinks is a __good__ triplet and what a person might think are a __good__ triplet may be quite divergent, which is exactly why we need to the human input (ie: your help). A human-made judgement on similarity and difference (whether the person doing the evaluation has professional art historical training or not) will always be valuable. If we manage to get enough ratings, the disagreements will also certainly help us to spot difficult cases. It's also worth bearing in mind that sometimes it is easier to judge what makes a __bad__ triplet, than what makes a good one. Trust your instincts!
 
 __We know that ratings are subjective. That's no problem!__ We want to collect as much & as diverse feedback 
