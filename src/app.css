@@ -155,6 +155,9 @@ iframe {
     margin:-40% 0;
   }
 
-}
+  .exploring-similarity-iframe {
+    height:820px !important;
+  }
 
+}
 

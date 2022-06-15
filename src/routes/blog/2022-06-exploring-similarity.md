@@ -59,8 +59,9 @@ as possible. If you feel unsure about the process, we recommend:
 * If a triplet looks confusing, this is likely due to ambiguous keywords. In this case, you can simply skip it.
 
 <iframe 
+  class="exploring-similarity-iframe"
   src="https://rate-this-triplet.no5.at/embed.html"
-  style="width:100%; height:700px; margin:0">
+  style="width:100%; height:700px; margin:0; transform:none;">
 </iframe>
 
 
