@@ -51,10 +51,12 @@ __That's why we need your help:__ Below, you see a random triplet. Based on the 
 
 Give us a thumbs-up if images A and B show similar motives or themes, and image C is different from A and B. Give us a thumbs-down if there is little similarity between A and B, or C is too similar to A or B.
 
-Remember: what the computer thinks is a __good__ triplet and what a person might think are a __good__ triplet may be quite divergent, which is exactly why we need to the human input (ie: your help). A human-made judgement on similarity and difference (whether the person doing the evaluation has professional art historical training or not) will always be valuable. If we manage to get enough ratings, the disagreements will also certainly help us to spot difficult cases. It's also worth bearing in mind that sometimes it is easier to judge what makes a __bad__ triplet, than what makes a good one. Trust your instincts!
+Remember: what the computer thinks is a good triplet and what a person might think may be quite divergent, which is exactly why we need the human input (ie: your help). A human-made judgement on similarity and difference will always be valuable - whether the person making ith as professional art historical training or not.
 
 __We know that ratings are subjective. That's no problem!__ We want to collect as much & as diverse feedback 
-as possible. If you feel unsure about the process, we recommend:
+as possible. If people disagree, that will help us spot the difficult cases. It's also worth bearing in mind that sometimes it is easier to judge what makes a __bad__ triplet, than what makes a good one. Trust your instincts!
+
+If you feel unsure about the process, we recommend:
 * Don't overthink it.
 * Focus on image motives and themes, ignore the medium (e.g. painting, sculpture,...)
 * Trust your instincts and rate according to your first impression.
