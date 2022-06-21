@@ -208,7 +208,7 @@
 
         <div class="ml-5 mr-5 mb-10">
           <a href="https://www.mak.at/" class="flex flex-wrap no-underline hover:no-underline"title="MAK Museum Wien">
-            <img class="splash-logo-small" src="logos/mak.jpg" alt="Logo des MAK Museum Wien"/>
+            <img class="splash-logo-small" src="logos/mak-griffin-black-04-22.png" alt="Logo des MAK Museum Wien"/>
           </a>
         </div>
 
