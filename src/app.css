@@ -55,6 +55,11 @@ h2 {
   margin:0;
 }
 
+.blogpost h4 {
+  font-weight: normal;
+  padding: 0 0 20px 0;
+}
+
 .blogpost h2.published-at {
   margin: 0;
   padding: 0 0 40px 0;

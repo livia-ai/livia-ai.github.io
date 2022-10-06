@@ -80,8 +80,13 @@ If we collect enough feedback (and that's a big if!), we will also be able to tr
 __You can also access the rating app without the blog post here: [https://rate-this-triplet.no5.at](https://rate-this-triplet.no5.at)__
 
 <footer>
+  <div class="next-post">
+    <h4>Next post</h4> 
+    <a href="/blog/2022-10-developing-livia-bernhard/">Developing LiviaAI by Bernhard</a>
+  </div>
+
   <div class="previous-post">
     <h4>Previous post</h4> 
-    <a href="/blog/2022-05-community-data/">Community and Data</a>
+    <a href="/blog/2022-05-community-data/">Community Data</a>
   </div>
 </footer>
