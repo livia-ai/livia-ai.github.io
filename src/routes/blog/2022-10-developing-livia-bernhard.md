@@ -5,7 +5,7 @@ url: https://liviaai.at/blog/2022-09-developing-livia-bernhard
 date: October 06, 2022
 ---
 
-We are about half-way through our project and, unfortunately, this means that our intern Bernhard has 
+_We are about half-way through our project and, unfortunately, this means that our intern Bernhard has 
 completed his internship, and is leaving LiviaAI. Bernhard’s skills, creativity and commitment have 
 been crucial to our effort. His uncomplicated, down-to-earth style, and his ability to explain complex 
 things with ease and clarity have made working with him a pleasure. (Trust me, I have learned way more
@@ -15,7 +15,7 @@ the [automated triplet selection](https://livia-ai.github.io/blog/2022-06-explor
 work! Naturally, we are sad to let him go. But the good news is: there’s a ton of stuff that Bernhard has
 created, which we haven’t shared with you so far. The best is yet to come! But first, before letting 
 Bernhard off the hook & back to university, we have asked him to write about his internship 
-experience, and tell us about what LiviaAI was like for him!
+experience, and tell us about what LiviaAI was like for him!_
 
 ## A Personal Conclusion on the Implementation of LiviaAI
 #### By Bernhard Franzl
