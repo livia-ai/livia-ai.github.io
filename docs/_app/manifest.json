@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-b6636995.js",
+    "file": "start-c5c8d3ff.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -12,6 +12,7 @@
       "src/routes/index.svelte",
       "src/routes/blog/__layout.svelte",
       "src/routes/blog/2022-04-machines-reading-metadata.md",
+      "src/routes/blog/2022-10-developing-livia-bernhard.md",
       "src/routes/blog/2022-06-exploring-similarity.md",
       "src/routes/blog/2022-05-community-data.md",
       "src/routes/blog/2022-04-hello-world.md",
@@ -27,7 +28,7 @@
       "_vendor-f435face.js"
     ],
     "css": [
-      "assets/app-94f322d5.css"
+      "assets/app-85891c10.css"
     ]
   },
   ".svelte-kit/runtime/components/error.svelte": {
@@ -40,7 +41,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-7307e274.js",
+    "file": "pages/index.svelte-6005562e.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -49,7 +50,7 @@
     ]
   },
   "src/routes/blog/__layout.svelte": {
-    "file": "pages/blog/__layout.svelte-3b3bd46b.js",
+    "file": "pages/blog/__layout.svelte-8c2510b1.js",
     "src": "src/routes/blog/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -58,7 +59,7 @@
     ],
     "css": [
       "assets/pages/blog/__layout.svelte-27041123.css",
-      "assets/app-94f322d5.css"
+      "assets/app-85891c10.css"
     ]
   },
   "src/routes/blog/2022-04-machines-reading-metadata.md": {
@@ -71,8 +72,18 @@
       "__post-4f5578a2.js"
     ]
   },
+  "src/routes/blog/2022-10-developing-livia-bernhard.md": {
+    "file": "pages/blog/2022-10-developing-livia-bernhard.md-53f93db0.js",
+    "src": "src/routes/blog/2022-10-developing-livia-bernhard.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-f435face.js",
+      "__post-4f5578a2.js"
+    ]
+  },
   "src/routes/blog/2022-06-exploring-similarity.md": {
-    "file": "pages/blog/2022-06-exploring-similarity.md-8b683c07.js",
+    "file": "pages/blog/2022-06-exploring-similarity.md-b5965d96.js",
     "src": "src/routes/blog/2022-06-exploring-similarity.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -102,7 +113,7 @@
     ]
   },
   "src/routes/team.svelte": {
-    "file": "pages/team.svelte-bce961b7.js",
+    "file": "pages/team.svelte-3773b8d1.js",
     "src": "src/routes/team.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -110,7 +121,7 @@
       "_vendor-f435face.js"
     ],
     "css": [
-      "assets/app-94f322d5.css"
+      "assets/app-85891c10.css"
     ]
   },
   "_vendor-f435face.js": {
