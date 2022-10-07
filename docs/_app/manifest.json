@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-88087cc2.js",
+    "file": "start-68443184.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -16,6 +16,7 @@
       "src/routes/blog/2022-06-exploring-similarity.md",
       "src/routes/blog/2022-05-community-data.md",
       "src/routes/blog/2022-04-hello-world.md",
+      "src/routes/blog/2022-10-darthist.md",
       "src/routes/team.svelte"
     ]
   },
@@ -41,7 +42,7 @@
     ]
   },
   "src/routes/index.svelte": {
-    "file": "pages/index.svelte-6005562e.js",
+    "file": "pages/index.svelte-521f6519.js",
     "src": "src/routes/index.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -50,7 +51,7 @@
     ]
   },
   "src/routes/blog/__layout.svelte": {
-    "file": "pages/blog/__layout.svelte-8c2510b1.js",
+    "file": "pages/blog/__layout.svelte-0b4c3e6c.js",
     "src": "src/routes/blog/__layout.svelte",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -73,7 +74,7 @@
     ]
   },
   "src/routes/blog/2022-10-developing-livia-bernhard.md": {
-    "file": "pages/blog/2022-10-developing-livia-bernhard.md-1980ceaa.js",
+    "file": "pages/blog/2022-10-developing-livia-bernhard.md-053ffbcb.js",
     "src": "src/routes/blog/2022-10-developing-livia-bernhard.md",
     "isEntry": true,
     "isDynamicEntry": true,
@@ -112,8 +113,18 @@
       "__post-4f5578a2.js"
     ]
   },
+  "src/routes/blog/2022-10-darthist.md": {
+    "file": "pages/blog/2022-10-darthist.md-3b216e17.js",
+    "src": "src/routes/blog/2022-10-darthist.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-f435face.js",
+      "__post-4f5578a2.js"
+    ]
+  },
   "src/routes/team.svelte": {
-    "file": "pages/team.svelte-3773b8d1.js",
+    "file": "pages/team.svelte-75941522.js",
     "src": "src/routes/team.svelte",
     "isEntry": true,
     "isDynamicEntry": true,

@@ -1,7 +1,7 @@
 ---
 title: "Developing LiviaAI"
 description: "A personal conclusion on the implementation of LiviaAI written by our intern Bernhard Franzl."
-url: https://liviaai.at/blog/2022-09-developing-livia-bernhard
+url: https://liviaai.at/blog/2022-10-developing-livia-bernhard
 date: October 06, 2022
 ---
 
@@ -71,6 +71,11 @@ to test my knowledge on a challenging real-world problem. I am happy that
 I had the chance to be a part of LiviaAI. 
 
 <footer>
+  <div class="next-post">
+    <h4>Next post</h4> 
+    <a href="/blog/2022-10-darthist/">LiviaAI goes DArtHistAustria!</a>
+  </div>
+
   <div class="previous-post">
     <h4>Previous post</h4> 
     <a href="/blog/2022-06-exploring-similarity/">Exploring Similarity</a>
