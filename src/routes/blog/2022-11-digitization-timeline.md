@@ -9,6 +9,15 @@ date: November 10, 2022
 </iframe>
 
 <footer>
+
+</footer>
+
+<footer>
+  <div class="next-post">
+    <h4>Next post</h4> 
+    <a href="/blog/2023-02-history-of-digitalization-wm/">The History of Digitalization of the Wien Museum</a>
+  </div>
+
   <div class="previous-post">
     <h4>Previous post</h4> 
     <a href="/blog/2022-10-darthist/">LiviaAI goes DArtHistAustria!</a>
