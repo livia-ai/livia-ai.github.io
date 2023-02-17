@@ -76,7 +76,7 @@
         </li>
 
         <li class="mr-3">
-          <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="/blog/2022-11-digitization-timeline">Blog</a>
+          <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="/blog/2023-02-history-of-digitalization-wm">Blog</a>
         </li>
       </ul>
       <button
