@@ -1,3 +1,10 @@
+---
+title: "The History of Digitalization of the Wien Museum"
+description: "A report by Michaela Feurstein-Prasser."
+url: https://liviaai.at/blog/2023-02-history-of-digitalization-wm
+date: February 17, 2023
+---
+
 __Preface:__
 _By Nicole High-Steskal_
 
