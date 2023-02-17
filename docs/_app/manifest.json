@@ -1,6 +1,6 @@
 {
   ".svelte-kit/runtime/client/start.js": {
-    "file": "start-90790106.js",
+    "file": "start-241c0615.js",
     "src": ".svelte-kit/runtime/client/start.js",
     "isEntry": true,
     "imports": [
@@ -11,6 +11,7 @@
       ".svelte-kit/runtime/components/error.svelte",
       "src/routes/index.svelte",
       "src/routes/blog/__layout.svelte",
+      "src/routes/blog/2023-02-history-of-digitalization-wm.md",
       "src/routes/blog/2022-04-machines-reading-metadata.md",
       "src/routes/blog/2022-10-developing-livia-bernhard.md",
       "src/routes/blog/2022-11-digitization-timeline.md",
@@ -64,6 +65,16 @@
       "assets/app-85891c10.css"
     ]
   },
+  "src/routes/blog/2023-02-history-of-digitalization-wm.md": {
+    "file": "pages/blog/2023-02-history-of-digitalization-wm.md-0ad84be6.js",
+    "src": "src/routes/blog/2023-02-history-of-digitalization-wm.md",
+    "isEntry": true,
+    "isDynamicEntry": true,
+    "imports": [
+      "_vendor-f435face.js",
+      "__post-4f5578a2.js"
+    ]
+  },
   "src/routes/blog/2022-04-machines-reading-metadata.md": {
     "file": "pages/blog/2022-04-machines-reading-metadata.md-7434b167.js",
     "src": "src/routes/blog/2022-04-machines-reading-metadata.md",
@@ -85,7 +96,7 @@
     ]
   },
   "src/routes/blog/2022-11-digitization-timeline.md": {
-    "file": "pages/blog/2022-11-digitization-timeline.md-47c1fcea.js",
+    "file": "pages/blog/2022-11-digitization-timeline.md-7fb6afad.js",
     "src": "src/routes/blog/2022-11-digitization-timeline.md",
     "isEntry": true,
     "isDynamicEntry": true,
