@@ -25,3 +25,10 @@ An interesting fact for all three museums is that no one really documents the st
 
 For me this research project once again showed how important it would be to better document different steps taken in an institution concerning the digitalisation, but also any other decision which has a great impact on the future development of an institution. Keeping a proper archive of one's own decisions would make a researcher’s life much easier!
 
+<footer>
+  <div class="previous-post">
+    <h4>Previous post</h4> 
+    <a href="/blog/2022-11-digitization-timeline">Digitization Timeline</a>
+  </div>
+</footer>
+
